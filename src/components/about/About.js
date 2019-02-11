@@ -22,7 +22,8 @@ class About extends React.Component {
                                 <p className="address">
                                     <span>Steve McKinnon</span><br />
                                     <span>Glasgow, Scotland<br /></span>
-                                    <a href="mailto:hello@stevenmckinnon.co.uk"> <span>hello@stevenmckinnon.co.uk</span></a>
+                                    <a href="mailto:hello@stevenmckinnon.co.uk"> <span>
+                                        <i className="fa fa-envelope"></i> Email me!</span></a>
                                 </p>
                             </div>
                             <div className="columns download">
