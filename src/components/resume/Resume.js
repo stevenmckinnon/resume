@@ -1,30 +1,30 @@
 import React from 'react';
 import Skills from './Skills';
+import Jobs from './Jobs';
 
 class Resume extends React.Component {
     render() {
         return (
             <section id="resume">
-
                 <div className="row work">
                     <div className="three columns header-col">
                         <h1><span>Work</span></h1>
                     </div>
                     <div className="nine columns main-col">
-                        <div className="row item">
-                            <div className="twelve columns">
-                                <h3>JP Morgan Chase</h3>
-                                <p className="info">Front End Developer <span>•</span> <em className="date">June 2014 -
-                                    Present</em></p>
-                                <p>
-                                    Currently working on a React based web application which allows users to write
-                                    queries using
-                                    GraphQL to extract data and visualise data models. Working with end users to design
-                                    based on functional
-                                    needs.
-                                </p>
-                            </div>
-                        </div>
+                        { Jobs.map((job,index) => {
+                            return (
+                                <div key={index} className="row item">
+                                    <div className="twelve columns">
+                                        <h3>{job.company}</h3>
+                                        <p className="info">{job.title} <span>•</span> <em
+                                            className="date">{job.years}</em>
+                                        </p>
+                                        <p>{job.description}</p>
+                                    </div>
+                                </div>
+                            )
+                        })
+                        }
                     </div>
                 </div>
 
@@ -49,7 +49,9 @@ class Resume extends React.Component {
                     </div>
                     <div className="nine columns main-col">
                         <div className="skills">
-                            {Skills.map(skill => {return (<div className="skill-tags">{skill.name}</div>)})}
+                            {Skills.map((skill,index) => {
+                                return (<div key={index}className="skill-tags">{skill.name}</div>)
+                            })}
                         </div>
                     </div>
                 </div>

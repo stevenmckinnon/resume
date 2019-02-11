@@ -37,7 +37,7 @@ class Contact extends React.Component {
                 </div>
                 <div className="row">
                     <div className="twelve columns">
-                        <form action method="post" id="contactForm" name="contactForm">
+                        <form method="post" id="contactForm" name="contactForm">
                             <fieldset>
                                 <div>
                                     <label htmlFor="contactName">Name <span className="required">*</span></label>
@@ -60,7 +60,7 @@ class Contact extends React.Component {
                                 <div>
                                     <label htmlFor="contactMessage">Message <span className="required">*</span></label>
                                     <textarea cols={50} rows={15} id="contactMessage" name="contactMessage"
-                                              defaultValue={""} value={this.state.body}
+                                              value={this.state.body}
                                               onChange={(e) => this.updateFormField('body', e.target.value)}/>
                                 </div>
                                 <div>
