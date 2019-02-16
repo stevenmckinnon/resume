@@ -23,16 +23,16 @@ class Header extends React.Component {
                             and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
                         <hr />
                         <ul className="social">
-                            <li><a href="http://twitter.com/stevenmckinnon"><i className="fa fa-twitter"/></a></li>
-                            <li><a href="https://www.linkedin.com/in/stevenmckinnon92/"><i className="fa fa-linkedin"/></a>
-                            </li>
-                            <li><a href="http://instagram.com/stevenmckinnon"><i className="fa fa-instagram"/></a></li>
-                            <li><a href="http://stevenmckinnon.co.uk"><i className="fa fa-camera"/></a></li>
+                            <li><a href="http://twitter.com/stevenmckinnon"><i className="fa fa-twitter" /></a></li>
+                            <li><a href="https://www.linkedin.com/in/stevenmckinnon92/"><i className="fa fa-linkedin" /></a></li>
+                            <li><a href="http://instagram.com/stevenmckinnon"><i className="fa fa-instagram" /></a></li>
+                            <li><a href="http://stevenmckinnon.co.uk" title='Steven McKinnon Photography'><i className="fa fa-camera" /></a></li>
+                            <li><a href="https://github.com/stevenmckinnon"><i className='fa fa-github'></i></a></li>
                         </ul>
                     </div>
                 </div>
                 <p className="scrolldown">
-                    <a className="smoothscroll" href="#about"><i className="icon-down-circle"/></a>
+                    <a className="smoothscroll" href="#about"><i className="icon-down-circle" /></a>
                 </p>
             </header>
         );
