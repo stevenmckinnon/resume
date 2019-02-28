@@ -1,4 +1,5 @@
 import React from 'react';
+import * as emailjs from 'emailjs-com';
 
 class Contact extends React.Component {
 
@@ -6,21 +7,37 @@ class Contact extends React.Component {
         super(props);
 
         this.state = {
-            name: '',
-            email: '',
-            subject: '',
-            body: ''
+            contactName: '',
+            contactEmail: '',
+            contactSubject: '',
+            contactMessage: '',
+            messageSent: false
         }
     }
 
-    updateFormField = (field, value) => {
+    updateFormField = (event) => {
         this.setState({
-            [field]: value
+            [event.target.name]: event.target.value
         });
     }
 
     submitForm = () => {
+        let template_params = {
+            "from_name": this.state.contactName,
+            "from_email": this.state.contactEmail,
+            "reply_to": "",
+            "subject": this.state.contactSubject,
+            "message_html": this.state.contactMessage
+        }
 
+        let service_id = "gmail";
+        let template_id = "template_ITzHz8q8";
+        let user_id = "user_lk6bjYxGAKmDqUrD2xoll";
+        emailjs.send(service_id, template_id, template_params, user_id).then((response) => {
+            console.log(response.status + response.text);
+        }, (error) => {
+            console.log(error);
+        });
     }
 
     render() {
@@ -37,44 +54,43 @@ class Contact extends React.Component {
                 </div>
                 <div className="row">
                     <div className="twelve columns">
-                        <form method="post" id="contactForm" name="contactForm">
-                            <fieldset>
-                                <div>
-                                    <label htmlFor="contactName">Name <span className="required">*</span></label>
-                                    <input type="text" size={35} id="contactName" name="contactName"
-                                           value={this.state.name}
-                                           onChange={(e) => this.updateFormField('name', e.target.value)}/>
-                                </div>
-                                <div>
-                                    <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                                    <input type="text" size={35} id="contactEmail" name="contactEmail"
-                                           value={this.state.email}
-                                           onChange={(e) => this.updateFormField('email', e.target.value)}/>
-                                </div>
-                                <div>
-                                    <label htmlFor="contactSubject">Subject</label>
-                                    <input type="text" size={35} id="contactSubject"
-                                           name="contactSubject" value={this.state.subject}
-                                           onChange={(e) => this.updateFormField('subject', e.target.value)}/>
-                                </div>
-                                <div>
-                                    <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                                    <textarea cols={50} rows={15} id="contactMessage" name="contactMessage"
-                                              value={this.state.body}
-                                              onChange={(e) => this.updateFormField('body', e.target.value)}/>
-                                </div>
-                                <div>
-                                    <button className="submit" onSubmit={() => this.submitForm()}>Submit</button>
-                                    <span id="image-loader"><img alt="loading" src="images/loader.gif"/></span>
-                                </div>
-                            </fieldset>
-                        </form>
-
-                        <div id="message-warning"> Error boy</div>
-
-                        <div id="message-success">
-                            <i className="fa fa-check"/>Your message was sent, thank you!<br />
-                        </div>
+                        {this.state.messageSent ?
+                            <div id="message-success">
+                                <i className="fa fa-check" />Your message was sent, thank you!<br />
+                            </div> :
+                            <form method="post" id="contactForm" name="contactForm">
+                                <fieldset>
+                                    <div>
+                                        <label htmlFor="contactName">Name <span className="required">*</span></label>
+                                        <input type="text" size={35} id="contactName" name="contactName"
+                                            value={this.state.contactName}
+                                            onChange={(e) => this.updateFormField(e)} />
+                                    </div>
+                                    <div>
+                                        <label htmlFor="contactEmail">Email <span className="required">*</span></label>
+                                        <input type="text" size={35} id="contactEmail" name="contactEmail"
+                                            value={this.state.contactEmail}
+                                            onChange={(e) => this.updateFormField(e)} />
+                                    </div>
+                                    <div>
+                                        <label htmlFor="contactSubject">Subject</label>
+                                        <input type="text" size={35} id="contactSubject"
+                                            name="contactSubject" value={this.state.contactSubject}
+                                            onChange={(e) => this.updateFormField(e)} />
+                                    </div>
+                                    <div>
+                                        <label htmlFor="contactMessage">Message <span className="required">*</span></label>
+                                        <textarea cols={50} rows={15} id="contactMessage" name="contactMessage"
+                                            value={this.state.contactMessage}
+                                            onChange={(e) => this.updateFormField(e)} />
+                                    </div>
+                                    <div>
+                                        <button className="submit" onSubmit={() => this.submitForm()}>Submit</button>
+                                        <span id="image-loader"><img alt="loading" src="images/loader.gif" /></span>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        }
                     </div>
                 </div>
             </section>

@@ -2,8 +2,10 @@ let jobs = [{
     company: 'JP Morgan Chase',
     title: 'Front End Developer',
     years: 'June 2018 - Present',
-    description: 'Front end developer currently working to build modern and responsive web applications'
-    + 'with the end-user in mind.'
+    description: 'Currently working to build modern and responsive web applications with the end-user in mind. '
+    + 'Working with the UX team to host usability sessions to determine end-user’s expectations and needs. '
+    + 'Building React component library for other development teams in the firm to use. '
+    + 'Training team members up on front end technologies.'
 },{
     company: 'JP Morgan Chase',
     title: 'Tech Lead',

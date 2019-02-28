@@ -7,10 +7,12 @@ class Footer extends React.Component {
                 <div className="row">
                     <div className="twelve columns">
                         <ul className="social-links">
+                            <li><a href="mailto:hello@stevenmckinnon.co.uk" title='Email Me!'><i className="fa fa-envelope"></i></a></li>
                             <li><a href="http://twitter.com/stevenmckinnon"><i className="fa fa-twitter"/></a></li>
                             <li><a href="https://www.linkedin.com/in/stevenmckinnon92/"><i className="fa fa-linkedin"/></a></li>
                             <li><a href="http://instagram.com/stevenmckinnon"><i className="fa fa-instagram"/></a></li>
                             <li><a href="http://stevenmckinnon.co.uk"><i className="fa fa-camera"/></a></li>
+                            <li><a href="https://github.com/stevenmckinnon"><i className='fa fa-github'></i></a></li>
                         </ul>
                         <ul className="copyright">
                             <li>© Copyright 2019 Steven McKinnon</li>
