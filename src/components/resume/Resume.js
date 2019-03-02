@@ -1,6 +1,7 @@
 import React from 'react';
-import Skills from './Skills';
-import Jobs from './Jobs';
+import skills from '../../cv-data/Skills';
+import jobs from '../../cv-data/Jobs';
+import education from '../../cv-data/Education';
 
 class Resume extends React.Component {
     render() {
@@ -11,7 +12,7 @@ class Resume extends React.Component {
                         <h1><span>Work</span></h1>
                     </div>
                     <div className="nine columns main-col">
-                        { Jobs.map((job,index) => {
+                        {jobs.map((job, index) => {
                             return (
                                 <div key={index} className="row item">
                                     <div className="twelve columns">
@@ -33,13 +34,18 @@ class Resume extends React.Component {
                         <h1><span>Education</span></h1>
                     </div>
                     <div className="nine columns main-col">
-                        <div className="row item">
-                            <div className="twelve columns">
-                                <h3>Glasgow Caledonian University</h3>
-                                <p className="info">Computer Games Software Development (BSc Hons) <span>•</span> <em
-                                    className="date">September 2010 - May 2014</em></p>
-                            </div>
-                        </div>
+                        {education.map((school, index) => {
+                            return (
+                                <div key={index} className="row item">
+                                    <div className="twelve columns">
+                                        <h3>{school.schoolName}</h3>
+                                        <p className="info">{school.course}<span> • </span><em
+                                            className="date">{school.years}</em></p>
+                                    </div>
+                                </div>
+                            )
+                        })
+                        }
                     </div>
                 </div>
 
@@ -49,8 +55,8 @@ class Resume extends React.Component {
                     </div>
                     <div className="nine columns main-col">
                         <div className="skills">
-                            {Skills.map((skill,index) => {
-                                return (<div key={index}className="skill-tags">{skill.name}</div>)
+                            {skills.map((skill, index) => {
+                                return (<div key={index} className="skill-tags">{skill.name}</div>)
                             })}
                         </div>
                     </div>

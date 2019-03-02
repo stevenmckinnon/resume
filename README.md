@@ -1,23 +1,33 @@
-# Steven McKinnon
+# Resume Builder
 
 [![dependencies Status](https://david-dm.org/stevenmckinnon/resume/status.svg)](https://david-dm.org/stevenmckinnon/resume) [![DEVDependencies Status](https://david-dm.org/stevenmckinnon/resume/DEV-status.svg)](https://david-dm.org/stevenmckinnon/resume?type=DEV)
 
-### `npm start`
+This project is my personal resume, however it can be cloned and customised to make your own!
 
-Runs the app in the development mode.<br>
+Check out [stevemckinnon.co.uk](http://stevemckinnon.co.uk) for a demo. 
+
+## Installation
+
+To install the dependencies type `npm install` in your terminal.
+
+Then type `npm start` to start the server. This runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm run build`
+## Customisation
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To customise the project for your own, add your personal details, education, jobs, and skills to the following files respectively:
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+```
+src/cv-data/PersonalData.js
+src/cv-data/Education.js
+src/cv-data/Jobs.js
+src/cv-data/SKills.js
+```
 
-### Deployment
+## Support 
 
-This project is hosted on [AWS](https://aws.amazon.com).
+For support issues, please raise them [here](https://github.com/stevenmckinnon/resume/issues).
+
