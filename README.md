@@ -18,16 +18,9 @@ You will also see any lint errors in the console.
 
 ## Customisation
 
-To customise the project for your own, add your personal details, education, jobs, and skills to the following files respectively:
+To customise the project for your own, add your personal details, education, jobs, and skills via creating a schema using [GraphCMS](https://graphcms.com). Follow the tutorial [here](https://docs.graphcms.com) to get started with creating your schema.
 
-```
-src/cv-data/PersonalData.js
-src/cv-data/Education.js
-src/cv-data/Jobs.js
-src/cv-data/SKills.js
-```
-
-## Support 
+## Support
 
 For support issues, please raise them [here](https://github.com/stevenmckinnon/resume/issues).
 

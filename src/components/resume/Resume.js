@@ -1,9 +1,13 @@
 import React from 'react';
-import skills from '../../cv-data/Skills';
-import jobs from '../../cv-data/Jobs';
-import education from '../../cv-data/Education';
+import moment from 'moment';
 
 class Resume extends React.Component {
+    formatDates(fromDate, toDate) {
+        const from = moment(fromDate.substring(0, 10), 'YYYY-MM-DD').format('MMMM YYYY');
+        const to = toDate ? moment(toDate.substring(0, 10), 'YYYY-MM-DD').format('MMMM YYYY') : 'Present';
+        return `${from} - ${to}`;
+    }
+
     render() {
         return (
             <section id="resume">
@@ -12,13 +16,13 @@ class Resume extends React.Component {
                         <h1><span>Work</span></h1>
                     </div>
                     <div className="nine columns main-col">
-                        {jobs.map((job, index) => {
+                        {this.props.work.map((job, index) => {
                             return (
                                 <div key={index} className="row item">
                                     <div className="twelve columns">
                                         <h3>{job.company}</h3>
-                                        <p className="info">{job.title} <span>•</span> <em
-                                            className="date">{job.years}</em>
+                                        <p className="info">{job.jobTitle} <span>•</span> <em
+                                            className="date">{this.formatDates(job.fromDate, job.toDate)}</em>
                                         </p>
                                         <p>{job.description}</p>
                                     </div>
@@ -34,13 +38,13 @@ class Resume extends React.Component {
                         <h1><span>Education</span></h1>
                     </div>
                     <div className="nine columns main-col">
-                        {education.map((school, index) => {
+                        {this.props.education.map((school, index) => {
                             return (
                                 <div key={index} className="row item">
                                     <div className="twelve columns">
-                                        <h3>{school.schoolName}</h3>
+                                        <h3>{school.name}</h3>
                                         <p className="info">{school.course}<span> • </span><em
-                                            className="date">{school.years}</em></p>
+                                            className="date">{this.formatDates(school.fromDate, school.toDate)}</em></p>
                                     </div>
                                 </div>
                             )
@@ -55,8 +59,8 @@ class Resume extends React.Component {
                     </div>
                     <div className="nine columns main-col">
                         <div className="skills">
-                            {skills.map((skill, index) => {
-                                return (<div key={index} className="skill-tags">{skill.name}</div>)
+                            {this.props.skills.map((skill, index) => {
+                                return (<div key={index} className="skill-tags">{skill}</div>)
                             })}
                         </div>
                     </div>

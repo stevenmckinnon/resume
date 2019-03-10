@@ -1,5 +1,4 @@
 import React from 'react';
-import personalData from '../../cv-data/PersonalData';
 
 class About extends React.Component {
     render() {
@@ -11,20 +10,20 @@ class About extends React.Component {
                     </div>
                     <div className="nine columns main-col">
                         <h2>About Me</h2>
-                        <p>{personalData.description}</p>
+                        <p>{this.props.personalDetails.biography}</p>
                         <div className="row">
                             <div className="columns contact-details">
                                 <h2>Contact Details</h2>
                                 <p className="address">
-                                    <span>{personalData.name}</span><br />
-                                    <span>{personalData.location}</span><br />
-                                    <a href={`mailto:${personalData.email}`}> <span>
+                                    <span>{this.props.personalDetails.name}</span><br />
+                                    <span>{this.props.personalDetails.location}</span><br />
+                                    <a href={`mailto:${this.props.personalDetails.email}`}> <span>
                                         <i className="fa fa-envelope"></i> Email me!</span></a>
                                 </p>
                             </div>
                             <div className="columns download">
                                 <p>
-                                    <a href={personalData.cvLink} rel="noopener noreferrer" target="_blank" className="button"><i
+                                    <a href={this.props.personalDetails.cvUrl} rel="noopener noreferrer" target="_blank" className="button"><i
                                         className="fa fa-download"/>Download CV</a>
                                 </p>
                             </div>
