@@ -9,6 +9,7 @@
     "axios": "^0.18.0",
     "emailjs": "^2.2.0",
     "emailjs-com": "^2.3.2",
+    "graphcms-image": "^1.1.0-beta4",
     "graphql": "^14.1.1",
     "graphql-tag": "^2.10.1",
     "moment": "^2.24.0",

@@ -1,4 +1,5 @@
 import React from 'react';
+import GraphImg from "graphcms-image";
 
 class About extends React.Component {
     render() {
@@ -6,7 +7,7 @@ class About extends React.Component {
             <section id="about">
                 <div className="row">
                     <div className="three columns">
-                        <img className="profile-pic" src="images/steve.jpg" alt="profile"/>
+                    <GraphImg className="profile-pic" image={this.props.photo} maxWidth={120} />
                     </div>
                     <div className="nine columns main-col">
                         <h2>About Me</h2>
@@ -23,8 +24,8 @@ class About extends React.Component {
                             </div>
                             <div className="columns download">
                                 <p>
-                                    <a href={this.props.personalDetails.cvUrl} rel="noopener noreferrer" target="_blank" className="button"><i
-                                        className="fa fa-download"/>Download CV</a>
+                                    <a href={this.props.personalDetails.cvUrl} rel="noopener noreferrer" target="_blank" 
+                                        className="button"><i className="fa fa-download"/>Download CV</a>
                                 </p>
                             </div>
                         </div>

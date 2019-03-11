@@ -9,34 +9,47 @@ import gql from 'graphql-tag';
 
 export const personalDetails = gql`
 query content($where: PersonalDetailsWhereInput) {
-    personalDetailses: personalDetailsesConnection(where: $where) {
-      edges {
-        node {
+  personalDetailses: personalDetailsesConnection(where: $where) {
+    edges {
+      node {
+        name
+        location
+        email
+        intro
+        biography
+        cvUrl
+        photo {
+          handle
+          width
+          height
+        }
+        workExperiences(orderBy: fromDate_DESC) {
+          company
+          description
+          fromDate
+          toDate
+          jobTitle
+        }
+        skills {
+          skills
+        }
+        educations(orderBy: fromDate_DESC) {
           name
-          location
-          email
-          biography
-          cvUrl
-          workExperiences(orderBy: fromDate_DESC) {
-            company,
-            description,
-            fromDate,
-            toDate,
-            jobTitle
-          }
-          skills {
-            skills
-          }
-          educations(orderBy: fromDate_DESC) {
-            name,
-            course,
-            fromDate,
-            toDate
-          }
+          course
+          fromDate
+          toDate
+        }
+        socialMedia {
+          twitter
+          linkedIn
+          instagram
+          photography
+          github
         }
       }
     }
   }
+}
 `;
 
 const App = ({ data: { loading, error, personalDetailses } }) => {
@@ -46,13 +59,15 @@ const App = ({ data: { loading, error, personalDetailses } }) => {
         const work = personalDetails.workExperiences;
         const education = personalDetails.educations;
         const skills = personalDetails.skills.skills;
+        const intro = personalDetails.intro;
+        const socialMedia = personalDetails.socialMedia;
 
         return (
             <div className="App">
-                <Header />
-                <About personalDetails={personalDetails} />
+                <Header name={personalDetails.name} intro={intro} socialMedia={socialMedia} />
+                <About personalDetails={personalDetails} photo={personalDetails.photo} />
                 <Resume work={work} education={education} skills={skills} />
-                <Footer />
+                <Footer name={personalDetails.name} socialMedia={socialMedia} />
             </div>
         )
     }

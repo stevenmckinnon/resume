@@ -7,15 +7,19 @@ class Footer extends React.Component {
                 <div className="row">
                     <div className="twelve columns">
                         <ul className="social-links">
-                            <li><a href="mailto:hello@stevenmckinnon.co.uk" title='Email Me!'><i className="fa fa-envelope"></i></a></li>
-                            <li><a href="http://twitter.com/stevenmckinnon"><i className="fa fa-twitter"/></a></li>
-                            <li><a href="https://www.linkedin.com/in/stevenmckinnon92/"><i className="fa fa-linkedin"/></a></li>
-                            <li><a href="http://instagram.com/stevenmckinnon"><i className="fa fa-instagram"/></a></li>
-                            <li><a href="http://stevenmckinnon.co.uk"><i className="fa fa-camera"/></a></li>
-                            <li><a href="https://github.com/stevenmckinnon"><i className='fa fa-github'></i></a></li>
+                            {this.props.socialMedia.twitter ? <li><a href={this.props.socialMedia.twitter}>
+                                <i className="fa fa-twitter" /></a></li> : null}
+                            {this.props.socialMedia.linkedIn ? <li><a href={this.props.socialMedia.linkedIn}>
+                                <i className="fa fa-linkedin" /></a></li> : null}
+                            {this.props.socialMedia.instagram ? <li><a href={this.props.socialMedia.instagram}>
+                                <i className="fa fa-instagram" /></a></li> : null}
+                            {this.props.socialMedia.photography ? <li><a href={this.props.socialMedia.photography} 
+                                title={`${this.props.name} Photography`}><i className="fa fa-camera" /></a></li> : null}
+                            {this.props.socialMedia.github ? <li><a href={this.props.socialMedia.github}>
+                                <i className='fa fa-github'></i></a></li> : null}
                         </ul>
                         <ul className="copyright">
-                            <li>© Copyright 2019 Steven McKinnon</li>
+                            <li>© Copyright {new Date().getFullYear()} Steven McKinnon</li>
                         </ul>
                     </div>
                     <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>
