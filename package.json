@@ -3,11 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "apollo-cache-inmemory": "^1.5.1",
+    "apollo-client": "^2.5.1",
+    "apollo-link-http": "^1.5.12",
     "axios": "^0.18.0",
     "emailjs": "^2.2.0",
     "emailjs-com": "^2.3.2",
+    "graphcms-image": "^1.1.0-beta4",
+    "graphql": "^14.1.1",
+    "graphql-tag": "^2.10.1",
+    "moment": "^2.24.0",
     "react": "^16.8.3",
+    "react-apollo": "^2.5.2",
     "react-dom": "^16.8.3",
+    "react-markdown": "^4.0.6",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.5"
   },
   "scripts": {
