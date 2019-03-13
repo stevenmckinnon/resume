@@ -5,57 +5,13 @@ import About from './components/about/About';
 import Resume from './components/resume/Resume';
 import Footer from './components/footer/Footer';
 import { graphql } from 'react-apollo';
-import gql from 'graphql-tag';
+import personalDetails from './queries/query';
 
-export const personalDetails = gql`
-query content($where: PersonalDetailsWhereInput) {
-  personalDetailses: personalDetailsesConnection(where: $where) {
-    edges {
-      node {
-        name
-        location
-        email
-        intro
-        biography
-        cvUrl
-        photo {
-          handle
-          width
-          height
-        }
-        workExperiences(orderBy: fromDate_DESC) {
-          company
-          description
-          fromDate
-          toDate
-          jobTitle
-        }
-        skills {
-          skills
-        }
-        educations(orderBy: fromDate_DESC) {
-          name
-          course
-          fromDate
-          toDate
-        }
-        socialMedia {
-          twitter
-          linkedIn
-          instagram
-          photography
-          github
-        }
-      }
-    }
-  }
-}
-`;
-
-const App = ({ data: { loading, error, personalDetailses } }) => {
-    if (error) return <h1>Error fetching the data!</h1>
-    if (!loading) {
-        const personalDetails = personalDetailses.edges[0].node;
+class App extends React.Component {
+  render() {
+    if (this.props.data.error) return <h1>Error fetching the data!</h1>;
+    if (!this.props.data.loading) {
+        const personalDetails = this.props.data.personalDetailses.edges[0].node;
         const work = personalDetails.workExperiences;
         const education = personalDetails.educations;
         const skills = personalDetails.skills.skills;
@@ -69,7 +25,7 @@ const App = ({ data: { loading, error, personalDetailses } }) => {
                 <Resume work={work} education={education} skills={skills} />
                 <Footer name={personalDetails.name} socialMedia={socialMedia} />
             </div>
-        )
+        );
     }
     return (
         <div className="loading">
@@ -77,8 +33,10 @@ const App = ({ data: { loading, error, personalDetailses } }) => {
             <div id="spinContainT" />
         </div>
     );
+  }
 }
 
+export const AppComp = App;
 export default graphql(personalDetails, {
     options: () => ({
         variables: {
