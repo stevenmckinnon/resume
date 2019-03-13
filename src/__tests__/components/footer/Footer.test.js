@@ -14,7 +14,13 @@ describe('Tests the Footer component', () => {
             instagram: 'http://instagram.com/stevenmckinnon',
             photography: 'http://stevenmckinnon.co.uk',
             github: 'https://github.com/stevenmckinnon'
-        }
+        };
+        const wrapper = shallow(<Footer name={name} socialMedia={socialMedia} />);
+        expect(wrapper).toMatchSnapshot();
+    });
+    it('renders the Footer component', () => {
+        const name = 'Steve McKinnon';
+        const socialMedia = {};
         const wrapper = shallow(<Footer name={name} socialMedia={socialMedia} />);
         expect(wrapper).toMatchSnapshot();
     });
