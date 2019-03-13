@@ -1,7 +1,7 @@
 # Resume Builder
 
 [![dependencies Status](https://david-dm.org/stevenmckinnon/resume/status.svg)](https://david-dm.org/stevenmckinnon/resume) [![DEVDependencies Status](https://david-dm.org/stevenmckinnon/resume/DEV-status.svg)](https://david-dm.org/stevenmckinnon/resume?type=DEV)<br />
-![bade-branches](./coverage/badge-branches.svg)![badge-functions](./coverage/badge-functions.svg)![badge-lines](./coverage/badge-lines.svg)![badge-statements](./coverage/badge-statements.svg)
+![bade-branches](./coverage/badge-branches.svg)&nbsp;![badge-functions](./coverage/badge-functions.svg)&nbsp;![badge-lines](./coverage/badge-lines.svg)&nbsp;![badge-statements](./coverage/badge-statements.svg)
 
 This project is my personal resume, however it can be cloned and customised to make your own!
 
