@@ -1,0 +1,2284 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests the Resume component renders the Resume component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Resume
+    education={
+      Array [
+        Object {
+          "course": "Course name (BSc Hons)",
+          "fromDate": "2010-09-13T00:00:00.000Z",
+          "name": "Uni name",
+          "toDate": "2014-05-21T00:00:00.000Z",
+        },
+      ]
+    }
+    skills={
+      Array [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Partying",
+      ]
+    }
+    work={
+      Array [
+        Object {
+          "company": "Company Name",
+          "description": "Description of role",
+          "fromDate": "2018-06-20T00:00:00.000Z",
+          "jobTitle": "Job title 1",
+          "toDate": null,
+        },
+        Object {
+          "company": "Company Name 2",
+          "description": "Description of role",
+          "fromDate": "2018-06-20T00:00:00.000Z",
+          "jobTitle": "Job title 2",
+          "toDate": null,
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="row work"
+        >
+          <div
+            className="three columns header-col"
+          >
+            <h1>
+              <span>
+                Work
+              </span>
+            </h1>
+          </div>
+          <div
+            className="nine columns main-col"
+          >
+            <div
+              className="row item"
+            >
+              <div
+                className="twelve columns"
+              >
+                <h3>
+                  Company Name
+                </h3>
+                <p
+                  className="info"
+                >
+                  Job title 1
+                   
+                  <span>
+                    •
+                  </span>
+                   
+                  <em
+                    className="date"
+                  >
+                    June 2018 - Present
+                  </em>
+                </p>
+                <p>
+                  Description of role
+                </p>
+              </div>
+            </div>
+            <div
+              className="row item"
+            >
+              <div
+                className="twelve columns"
+              >
+                <h3>
+                  Company Name 2
+                </h3>
+                <p
+                  className="info"
+                >
+                  Job title 2
+                   
+                  <span>
+                    •
+                  </span>
+                   
+                  <em
+                    className="date"
+                  >
+                    June 2018 - Present
+                  </em>
+                </p>
+                <p>
+                  Description of role
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>,
+        <div
+          className="row education"
+        >
+          <div
+            className="three columns header-col"
+          >
+            <h1>
+              <span>
+                Education
+              </span>
+            </h1>
+          </div>
+          <div
+            className="nine columns main-col"
+          >
+            <div
+              className="row item"
+            >
+              <div
+                className="twelve columns"
+              >
+                <h3>
+                  Uni name
+                </h3>
+                <p
+                  className="info"
+                >
+                  Course name (BSc Hons)
+                  <span>
+                     • 
+                  </span>
+                  <em
+                    className="date"
+                  >
+                    September 2010 - May 2014
+                  </em>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>,
+        <div
+          className="row skill"
+        >
+          <div
+            className="three columns header-col"
+          >
+            <h1>
+              <span>
+                Skills
+              </span>
+            </h1>
+          </div>
+          <div
+            className="nine columns main-col"
+          >
+            <div
+              className="skills"
+            >
+              <div
+                className="skill-tags"
+              >
+                JavaScript
+              </div>
+              <div
+                className="skill-tags"
+              >
+                HTML
+              </div>
+              <div
+                className="skill-tags"
+              >
+                CSS
+              </div>
+              <div
+                className="skill-tags"
+              >
+                Partying
+              </div>
+            </div>
+          </div>
+        </div>,
+      ],
+      "id": "resume",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="three columns header-col"
+            >
+              <h1>
+                <span>
+                  Work
+                </span>
+              </h1>
+            </div>,
+            <div
+              className="nine columns main-col"
+            >
+              <div
+                className="row item"
+              >
+                <div
+                  className="twelve columns"
+                >
+                  <h3>
+                    Company Name
+                  </h3>
+                  <p
+                    className="info"
+                  >
+                    Job title 1
+                     
+                    <span>
+                      •
+                    </span>
+                     
+                    <em
+                      className="date"
+                    >
+                      June 2018 - Present
+                    </em>
+                  </p>
+                  <p>
+                    Description of role
+                  </p>
+                </div>
+              </div>
+              <div
+                className="row item"
+              >
+                <div
+                  className="twelve columns"
+                >
+                  <h3>
+                    Company Name 2
+                  </h3>
+                  <p
+                    className="info"
+                  >
+                    Job title 2
+                     
+                    <span>
+                      •
+                    </span>
+                     
+                    <em
+                      className="date"
+                    >
+                      June 2018 - Present
+                    </em>
+                  </p>
+                  <p>
+                    Description of role
+                  </p>
+                </div>
+              </div>
+            </div>,
+          ],
+          "className": "row work",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <h1>
+                <span>
+                  Work
+                </span>
+              </h1>,
+              "className": "three columns header-col",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  Work
+                </span>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Work",
+                },
+                "ref": null,
+                "rendered": "Work",
+                "type": "span",
+              },
+              "type": "h1",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="row item"
+                >
+                  <div
+                    className="twelve columns"
+                  >
+                    <h3>
+                      Company Name
+                    </h3>
+                    <p
+                      className="info"
+                    >
+                      Job title 1
+                       
+                      <span>
+                        •
+                      </span>
+                       
+                      <em
+                        className="date"
+                      >
+                        June 2018 - Present
+                      </em>
+                    </p>
+                    <p>
+                      Description of role
+                    </p>
+                  </div>
+                </div>,
+                <div
+                  className="row item"
+                >
+                  <div
+                    className="twelve columns"
+                  >
+                    <h3>
+                      Company Name 2
+                    </h3>
+                    <p
+                      className="info"
+                    >
+                      Job title 2
+                       
+                      <span>
+                        •
+                      </span>
+                       
+                      <em
+                        className="date"
+                      >
+                        June 2018 - Present
+                      </em>
+                    </p>
+                    <p>
+                      Description of role
+                    </p>
+                  </div>
+                </div>,
+              ],
+              "className": "nine columns main-col",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="twelve columns"
+                  >
+                    <h3>
+                      Company Name
+                    </h3>
+                    <p
+                      className="info"
+                    >
+                      Job title 1
+                       
+                      <span>
+                        •
+                      </span>
+                       
+                      <em
+                        className="date"
+                      >
+                        June 2018 - Present
+                      </em>
+                    </p>
+                    <p>
+                      Description of role
+                    </p>
+                  </div>,
+                  "className": "row item",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h3>
+                        Company Name
+                      </h3>,
+                      <p
+                        className="info"
+                      >
+                        Job title 1
+                         
+                        <span>
+                          •
+                        </span>
+                         
+                        <em
+                          className="date"
+                        >
+                          June 2018 - Present
+                        </em>
+                      </p>,
+                      <p>
+                        Description of role
+                      </p>,
+                    ],
+                    "className": "twelve columns",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Company Name",
+                      },
+                      "ref": null,
+                      "rendered": "Company Name",
+                      "type": "h3",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Job title 1",
+                          " ",
+                          <span>
+                            •
+                          </span>,
+                          " ",
+                          <em
+                            className="date"
+                          >
+                            June 2018 - Present
+                          </em>,
+                        ],
+                        "className": "info",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Job title 1",
+                        " ",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "•",
+                          },
+                          "ref": null,
+                          "rendered": "•",
+                          "type": "span",
+                        },
+                        " ",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "June 2018 - Present",
+                            "className": "date",
+                          },
+                          "ref": null,
+                          "rendered": "June 2018 - Present",
+                          "type": "em",
+                        },
+                      ],
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Description of role",
+                      },
+                      "ref": null,
+                      "rendered": "Description of role",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="twelve columns"
+                  >
+                    <h3>
+                      Company Name 2
+                    </h3>
+                    <p
+                      className="info"
+                    >
+                      Job title 2
+                       
+                      <span>
+                        •
+                      </span>
+                       
+                      <em
+                        className="date"
+                      >
+                        June 2018 - Present
+                      </em>
+                    </p>
+                    <p>
+                      Description of role
+                    </p>
+                  </div>,
+                  "className": "row item",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h3>
+                        Company Name 2
+                      </h3>,
+                      <p
+                        className="info"
+                      >
+                        Job title 2
+                         
+                        <span>
+                          •
+                        </span>
+                         
+                        <em
+                          className="date"
+                        >
+                          June 2018 - Present
+                        </em>
+                      </p>,
+                      <p>
+                        Description of role
+                      </p>,
+                    ],
+                    "className": "twelve columns",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Company Name 2",
+                      },
+                      "ref": null,
+                      "rendered": "Company Name 2",
+                      "type": "h3",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Job title 2",
+                          " ",
+                          <span>
+                            •
+                          </span>,
+                          " ",
+                          <em
+                            className="date"
+                          >
+                            June 2018 - Present
+                          </em>,
+                        ],
+                        "className": "info",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Job title 2",
+                        " ",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "•",
+                          },
+                          "ref": null,
+                          "rendered": "•",
+                          "type": "span",
+                        },
+                        " ",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "June 2018 - Present",
+                            "className": "date",
+                          },
+                          "ref": null,
+                          "rendered": "June 2018 - Present",
+                          "type": "em",
+                        },
+                      ],
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Description of role",
+                      },
+                      "ref": null,
+                      "rendered": "Description of role",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="three columns header-col"
+            >
+              <h1>
+                <span>
+                  Education
+                </span>
+              </h1>
+            </div>,
+            <div
+              className="nine columns main-col"
+            >
+              <div
+                className="row item"
+              >
+                <div
+                  className="twelve columns"
+                >
+                  <h3>
+                    Uni name
+                  </h3>
+                  <p
+                    className="info"
+                  >
+                    Course name (BSc Hons)
+                    <span>
+                       • 
+                    </span>
+                    <em
+                      className="date"
+                    >
+                      September 2010 - May 2014
+                    </em>
+                  </p>
+                </div>
+              </div>
+            </div>,
+          ],
+          "className": "row education",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <h1>
+                <span>
+                  Education
+                </span>
+              </h1>,
+              "className": "three columns header-col",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  Education
+                </span>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Education",
+                },
+                "ref": null,
+                "rendered": "Education",
+                "type": "span",
+              },
+              "type": "h1",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="row item"
+                >
+                  <div
+                    className="twelve columns"
+                  >
+                    <h3>
+                      Uni name
+                    </h3>
+                    <p
+                      className="info"
+                    >
+                      Course name (BSc Hons)
+                      <span>
+                         • 
+                      </span>
+                      <em
+                        className="date"
+                      >
+                        September 2010 - May 2014
+                      </em>
+                    </p>
+                  </div>
+                </div>,
+              ],
+              "className": "nine columns main-col",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="twelve columns"
+                  >
+                    <h3>
+                      Uni name
+                    </h3>
+                    <p
+                      className="info"
+                    >
+                      Course name (BSc Hons)
+                      <span>
+                         • 
+                      </span>
+                      <em
+                        className="date"
+                      >
+                        September 2010 - May 2014
+                      </em>
+                    </p>
+                  </div>,
+                  "className": "row item",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h3>
+                        Uni name
+                      </h3>,
+                      <p
+                        className="info"
+                      >
+                        Course name (BSc Hons)
+                        <span>
+                           • 
+                        </span>
+                        <em
+                          className="date"
+                        >
+                          September 2010 - May 2014
+                        </em>
+                      </p>,
+                    ],
+                    "className": "twelve columns",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Uni name",
+                      },
+                      "ref": null,
+                      "rendered": "Uni name",
+                      "type": "h3",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Course name (BSc Hons)",
+                          <span>
+                             • 
+                          </span>,
+                          <em
+                            className="date"
+                          >
+                            September 2010 - May 2014
+                          </em>,
+                        ],
+                        "className": "info",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Course name (BSc Hons)",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": " • ",
+                          },
+                          "ref": null,
+                          "rendered": " • ",
+                          "type": "span",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "September 2010 - May 2014",
+                            "className": "date",
+                          },
+                          "ref": null,
+                          "rendered": "September 2010 - May 2014",
+                          "type": "em",
+                        },
+                      ],
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="three columns header-col"
+            >
+              <h1>
+                <span>
+                  Skills
+                </span>
+              </h1>
+            </div>,
+            <div
+              className="nine columns main-col"
+            >
+              <div
+                className="skills"
+              >
+                <div
+                  className="skill-tags"
+                >
+                  JavaScript
+                </div>
+                <div
+                  className="skill-tags"
+                >
+                  HTML
+                </div>
+                <div
+                  className="skill-tags"
+                >
+                  CSS
+                </div>
+                <div
+                  className="skill-tags"
+                >
+                  Partying
+                </div>
+              </div>
+            </div>,
+          ],
+          "className": "row skill",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <h1>
+                <span>
+                  Skills
+                </span>
+              </h1>,
+              "className": "three columns header-col",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  Skills
+                </span>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Skills",
+                },
+                "ref": null,
+                "rendered": "Skills",
+                "type": "span",
+              },
+              "type": "h1",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="skills"
+              >
+                <div
+                  className="skill-tags"
+                >
+                  JavaScript
+                </div>
+                <div
+                  className="skill-tags"
+                >
+                  HTML
+                </div>
+                <div
+                  className="skill-tags"
+                >
+                  CSS
+                </div>
+                <div
+                  className="skill-tags"
+                >
+                  Partying
+                </div>
+              </div>,
+              "className": "nine columns main-col",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="skill-tags"
+                  >
+                    JavaScript
+                  </div>,
+                  <div
+                    className="skill-tags"
+                  >
+                    HTML
+                  </div>,
+                  <div
+                    className="skill-tags"
+                  >
+                    CSS
+                  </div>,
+                  <div
+                    className="skill-tags"
+                  >
+                    Partying
+                  </div>,
+                ],
+                "className": "skills",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "JavaScript",
+                    "className": "skill-tags",
+                  },
+                  "ref": null,
+                  "rendered": "JavaScript",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "HTML",
+                    "className": "skill-tags",
+                  },
+                  "ref": null,
+                  "rendered": "HTML",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "2",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "CSS",
+                    "className": "skill-tags",
+                  },
+                  "ref": null,
+                  "rendered": "CSS",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "3",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Partying",
+                    "className": "skill-tags",
+                  },
+                  "ref": null,
+                  "rendered": "Partying",
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="row work"
+          >
+            <div
+              className="three columns header-col"
+            >
+              <h1>
+                <span>
+                  Work
+                </span>
+              </h1>
+            </div>
+            <div
+              className="nine columns main-col"
+            >
+              <div
+                className="row item"
+              >
+                <div
+                  className="twelve columns"
+                >
+                  <h3>
+                    Company Name
+                  </h3>
+                  <p
+                    className="info"
+                  >
+                    Job title 1
+                     
+                    <span>
+                      •
+                    </span>
+                     
+                    <em
+                      className="date"
+                    >
+                      June 2018 - Present
+                    </em>
+                  </p>
+                  <p>
+                    Description of role
+                  </p>
+                </div>
+              </div>
+              <div
+                className="row item"
+              >
+                <div
+                  className="twelve columns"
+                >
+                  <h3>
+                    Company Name 2
+                  </h3>
+                  <p
+                    className="info"
+                  >
+                    Job title 2
+                     
+                    <span>
+                      •
+                    </span>
+                     
+                    <em
+                      className="date"
+                    >
+                      June 2018 - Present
+                    </em>
+                  </p>
+                  <p>
+                    Description of role
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>,
+          <div
+            className="row education"
+          >
+            <div
+              className="three columns header-col"
+            >
+              <h1>
+                <span>
+                  Education
+                </span>
+              </h1>
+            </div>
+            <div
+              className="nine columns main-col"
+            >
+              <div
+                className="row item"
+              >
+                <div
+                  className="twelve columns"
+                >
+                  <h3>
+                    Uni name
+                  </h3>
+                  <p
+                    className="info"
+                  >
+                    Course name (BSc Hons)
+                    <span>
+                       • 
+                    </span>
+                    <em
+                      className="date"
+                    >
+                      September 2010 - May 2014
+                    </em>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>,
+          <div
+            className="row skill"
+          >
+            <div
+              className="three columns header-col"
+            >
+              <h1>
+                <span>
+                  Skills
+                </span>
+              </h1>
+            </div>
+            <div
+              className="nine columns main-col"
+            >
+              <div
+                className="skills"
+              >
+                <div
+                  className="skill-tags"
+                >
+                  JavaScript
+                </div>
+                <div
+                  className="skill-tags"
+                >
+                  HTML
+                </div>
+                <div
+                  className="skill-tags"
+                >
+                  CSS
+                </div>
+                <div
+                  className="skill-tags"
+                >
+                  Partying
+                </div>
+              </div>
+            </div>
+          </div>,
+        ],
+        "id": "resume",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="three columns header-col"
+              >
+                <h1>
+                  <span>
+                    Work
+                  </span>
+                </h1>
+              </div>,
+              <div
+                className="nine columns main-col"
+              >
+                <div
+                  className="row item"
+                >
+                  <div
+                    className="twelve columns"
+                  >
+                    <h3>
+                      Company Name
+                    </h3>
+                    <p
+                      className="info"
+                    >
+                      Job title 1
+                       
+                      <span>
+                        •
+                      </span>
+                       
+                      <em
+                        className="date"
+                      >
+                        June 2018 - Present
+                      </em>
+                    </p>
+                    <p>
+                      Description of role
+                    </p>
+                  </div>
+                </div>
+                <div
+                  className="row item"
+                >
+                  <div
+                    className="twelve columns"
+                  >
+                    <h3>
+                      Company Name 2
+                    </h3>
+                    <p
+                      className="info"
+                    >
+                      Job title 2
+                       
+                      <span>
+                        •
+                      </span>
+                       
+                      <em
+                        className="date"
+                      >
+                        June 2018 - Present
+                      </em>
+                    </p>
+                    <p>
+                      Description of role
+                    </p>
+                  </div>
+                </div>
+              </div>,
+            ],
+            "className": "row work",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h1>
+                  <span>
+                    Work
+                  </span>
+                </h1>,
+                "className": "three columns header-col",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <span>
+                    Work
+                  </span>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Work",
+                  },
+                  "ref": null,
+                  "rendered": "Work",
+                  "type": "span",
+                },
+                "type": "h1",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="row item"
+                  >
+                    <div
+                      className="twelve columns"
+                    >
+                      <h3>
+                        Company Name
+                      </h3>
+                      <p
+                        className="info"
+                      >
+                        Job title 1
+                         
+                        <span>
+                          •
+                        </span>
+                         
+                        <em
+                          className="date"
+                        >
+                          June 2018 - Present
+                        </em>
+                      </p>
+                      <p>
+                        Description of role
+                      </p>
+                    </div>
+                  </div>,
+                  <div
+                    className="row item"
+                  >
+                    <div
+                      className="twelve columns"
+                    >
+                      <h3>
+                        Company Name 2
+                      </h3>
+                      <p
+                        className="info"
+                      >
+                        Job title 2
+                         
+                        <span>
+                          •
+                        </span>
+                         
+                        <em
+                          className="date"
+                        >
+                          June 2018 - Present
+                        </em>
+                      </p>
+                      <p>
+                        Description of role
+                      </p>
+                    </div>
+                  </div>,
+                ],
+                "className": "nine columns main-col",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="twelve columns"
+                    >
+                      <h3>
+                        Company Name
+                      </h3>
+                      <p
+                        className="info"
+                      >
+                        Job title 1
+                         
+                        <span>
+                          •
+                        </span>
+                         
+                        <em
+                          className="date"
+                        >
+                          June 2018 - Present
+                        </em>
+                      </p>
+                      <p>
+                        Description of role
+                      </p>
+                    </div>,
+                    "className": "row item",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <h3>
+                          Company Name
+                        </h3>,
+                        <p
+                          className="info"
+                        >
+                          Job title 1
+                           
+                          <span>
+                            •
+                          </span>
+                           
+                          <em
+                            className="date"
+                          >
+                            June 2018 - Present
+                          </em>
+                        </p>,
+                        <p>
+                          Description of role
+                        </p>,
+                      ],
+                      "className": "twelve columns",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Company Name",
+                        },
+                        "ref": null,
+                        "rendered": "Company Name",
+                        "type": "h3",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "Job title 1",
+                            " ",
+                            <span>
+                              •
+                            </span>,
+                            " ",
+                            <em
+                              className="date"
+                            >
+                              June 2018 - Present
+                            </em>,
+                          ],
+                          "className": "info",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Job title 1",
+                          " ",
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "•",
+                            },
+                            "ref": null,
+                            "rendered": "•",
+                            "type": "span",
+                          },
+                          " ",
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "June 2018 - Present",
+                              "className": "date",
+                            },
+                            "ref": null,
+                            "rendered": "June 2018 - Present",
+                            "type": "em",
+                          },
+                        ],
+                        "type": "p",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Description of role",
+                        },
+                        "ref": null,
+                        "rendered": "Description of role",
+                        "type": "p",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="twelve columns"
+                    >
+                      <h3>
+                        Company Name 2
+                      </h3>
+                      <p
+                        className="info"
+                      >
+                        Job title 2
+                         
+                        <span>
+                          •
+                        </span>
+                         
+                        <em
+                          className="date"
+                        >
+                          June 2018 - Present
+                        </em>
+                      </p>
+                      <p>
+                        Description of role
+                      </p>
+                    </div>,
+                    "className": "row item",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <h3>
+                          Company Name 2
+                        </h3>,
+                        <p
+                          className="info"
+                        >
+                          Job title 2
+                           
+                          <span>
+                            •
+                          </span>
+                           
+                          <em
+                            className="date"
+                          >
+                            June 2018 - Present
+                          </em>
+                        </p>,
+                        <p>
+                          Description of role
+                        </p>,
+                      ],
+                      "className": "twelve columns",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Company Name 2",
+                        },
+                        "ref": null,
+                        "rendered": "Company Name 2",
+                        "type": "h3",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "Job title 2",
+                            " ",
+                            <span>
+                              •
+                            </span>,
+                            " ",
+                            <em
+                              className="date"
+                            >
+                              June 2018 - Present
+                            </em>,
+                          ],
+                          "className": "info",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Job title 2",
+                          " ",
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "•",
+                            },
+                            "ref": null,
+                            "rendered": "•",
+                            "type": "span",
+                          },
+                          " ",
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "June 2018 - Present",
+                              "className": "date",
+                            },
+                            "ref": null,
+                            "rendered": "June 2018 - Present",
+                            "type": "em",
+                          },
+                        ],
+                        "type": "p",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Description of role",
+                        },
+                        "ref": null,
+                        "rendered": "Description of role",
+                        "type": "p",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="three columns header-col"
+              >
+                <h1>
+                  <span>
+                    Education
+                  </span>
+                </h1>
+              </div>,
+              <div
+                className="nine columns main-col"
+              >
+                <div
+                  className="row item"
+                >
+                  <div
+                    className="twelve columns"
+                  >
+                    <h3>
+                      Uni name
+                    </h3>
+                    <p
+                      className="info"
+                    >
+                      Course name (BSc Hons)
+                      <span>
+                         • 
+                      </span>
+                      <em
+                        className="date"
+                      >
+                        September 2010 - May 2014
+                      </em>
+                    </p>
+                  </div>
+                </div>
+              </div>,
+            ],
+            "className": "row education",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h1>
+                  <span>
+                    Education
+                  </span>
+                </h1>,
+                "className": "three columns header-col",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <span>
+                    Education
+                  </span>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Education",
+                  },
+                  "ref": null,
+                  "rendered": "Education",
+                  "type": "span",
+                },
+                "type": "h1",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="row item"
+                  >
+                    <div
+                      className="twelve columns"
+                    >
+                      <h3>
+                        Uni name
+                      </h3>
+                      <p
+                        className="info"
+                      >
+                        Course name (BSc Hons)
+                        <span>
+                           • 
+                        </span>
+                        <em
+                          className="date"
+                        >
+                          September 2010 - May 2014
+                        </em>
+                      </p>
+                    </div>
+                  </div>,
+                ],
+                "className": "nine columns main-col",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="twelve columns"
+                    >
+                      <h3>
+                        Uni name
+                      </h3>
+                      <p
+                        className="info"
+                      >
+                        Course name (BSc Hons)
+                        <span>
+                           • 
+                        </span>
+                        <em
+                          className="date"
+                        >
+                          September 2010 - May 2014
+                        </em>
+                      </p>
+                    </div>,
+                    "className": "row item",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <h3>
+                          Uni name
+                        </h3>,
+                        <p
+                          className="info"
+                        >
+                          Course name (BSc Hons)
+                          <span>
+                             • 
+                          </span>
+                          <em
+                            className="date"
+                          >
+                            September 2010 - May 2014
+                          </em>
+                        </p>,
+                      ],
+                      "className": "twelve columns",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Uni name",
+                        },
+                        "ref": null,
+                        "rendered": "Uni name",
+                        "type": "h3",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "Course name (BSc Hons)",
+                            <span>
+                               • 
+                            </span>,
+                            <em
+                              className="date"
+                            >
+                              September 2010 - May 2014
+                            </em>,
+                          ],
+                          "className": "info",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Course name (BSc Hons)",
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": " • ",
+                            },
+                            "ref": null,
+                            "rendered": " • ",
+                            "type": "span",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "September 2010 - May 2014",
+                              "className": "date",
+                            },
+                            "ref": null,
+                            "rendered": "September 2010 - May 2014",
+                            "type": "em",
+                          },
+                        ],
+                        "type": "p",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="three columns header-col"
+              >
+                <h1>
+                  <span>
+                    Skills
+                  </span>
+                </h1>
+              </div>,
+              <div
+                className="nine columns main-col"
+              >
+                <div
+                  className="skills"
+                >
+                  <div
+                    className="skill-tags"
+                  >
+                    JavaScript
+                  </div>
+                  <div
+                    className="skill-tags"
+                  >
+                    HTML
+                  </div>
+                  <div
+                    className="skill-tags"
+                  >
+                    CSS
+                  </div>
+                  <div
+                    className="skill-tags"
+                  >
+                    Partying
+                  </div>
+                </div>
+              </div>,
+            ],
+            "className": "row skill",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h1>
+                  <span>
+                    Skills
+                  </span>
+                </h1>,
+                "className": "three columns header-col",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <span>
+                    Skills
+                  </span>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Skills",
+                  },
+                  "ref": null,
+                  "rendered": "Skills",
+                  "type": "span",
+                },
+                "type": "h1",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="skills"
+                >
+                  <div
+                    className="skill-tags"
+                  >
+                    JavaScript
+                  </div>
+                  <div
+                    className="skill-tags"
+                  >
+                    HTML
+                  </div>
+                  <div
+                    className="skill-tags"
+                  >
+                    CSS
+                  </div>
+                  <div
+                    className="skill-tags"
+                  >
+                    Partying
+                  </div>
+                </div>,
+                "className": "nine columns main-col",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="skill-tags"
+                    >
+                      JavaScript
+                    </div>,
+                    <div
+                      className="skill-tags"
+                    >
+                      HTML
+                    </div>,
+                    <div
+                      className="skill-tags"
+                    >
+                      CSS
+                    </div>,
+                    <div
+                      className="skill-tags"
+                    >
+                      Partying
+                    </div>,
+                  ],
+                  "className": "skills",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "JavaScript",
+                      "className": "skill-tags",
+                    },
+                    "ref": null,
+                    "rendered": "JavaScript",
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "1",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "HTML",
+                      "className": "skill-tags",
+                    },
+                    "ref": null,
+                    "rendered": "HTML",
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "2",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "CSS",
+                      "className": "skill-tags",
+                    },
+                    "ref": null,
+                    "rendered": "CSS",
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "3",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Partying",
+                      "className": "skill-tags",
+                    },
+                    "ref": null,
+                    "rendered": "Partying",
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

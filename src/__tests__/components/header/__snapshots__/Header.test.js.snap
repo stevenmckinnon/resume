@@ -1,0 +1,1945 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests the Header component renders the Header component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header
+    intro="I'm a Glasgow based front end developer and web designer creating modern web apps in the financial sector."
+    name="Steve McKinnon"
+    socialMedia={
+      Object {
+        "github": "https://github.com/stevenmckinnon",
+        "instagram": "http://instagram.com/stevenmckinnon",
+        "linkedIn": "https://www.linkedin.com/in/stevenmckinnon92/",
+        "photography": "http://stevenmckinnon.co.uk",
+        "twitter": "http://twitter.com/stevenmckinnon",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <nav
+          id="nav-wrap"
+        >
+          <a
+            className="mobile-btn"
+            href="#nav-wrap"
+            title="Show navigation"
+          >
+            Show navigation
+          </a>
+          <a
+            className="mobile-btn"
+            href="#"
+            title="Hide navigation"
+          >
+            Hide navigation
+          </a>
+          <ul
+            className="nav"
+            id="nav"
+          >
+            <li
+              className="current"
+            >
+              <a
+                className="smoothscroll"
+                href="#home"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                className="smoothscroll"
+                href="#about"
+              >
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                className="smoothscroll"
+                href="#resume"
+              >
+                Resume
+              </a>
+            </li>
+          </ul>
+        </nav>,
+        <div
+          className="row banner"
+        >
+          <div
+            className="banner-text"
+          >
+            <h1
+              className="responsive-headline"
+            >
+              I'm 
+              Steve McKinnon
+              .
+            </h1>
+            <h3>
+              I'm a Glasgow based front end developer and web designer creating modern web apps in the financial sector.
+               Let's 
+              <a
+                className="smoothscroll"
+                href="#about"
+              >
+                start scrolling 
+              </a>
+              and learn more 
+              <a
+                className="smoothscroll"
+                href="#about"
+              >
+                about me
+              </a>
+              .
+            </h3>
+            <hr />
+            <ul
+              className="social"
+            >
+              <li>
+                <a
+                  href="http://twitter.com/stevenmckinnon"
+                >
+                  <i
+                    className="fa fa-twitter"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/stevenmckinnon92/"
+                >
+                  <i
+                    className="fa fa-linkedin"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="http://instagram.com/stevenmckinnon"
+                >
+                  <i
+                    className="fa fa-instagram"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="http://stevenmckinnon.co.uk"
+                  title="Steve McKinnon Photography"
+                >
+                  <i
+                    className="fa fa-camera"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/stevenmckinnon"
+                >
+                  <i
+                    className="fa fa-github"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>,
+        <p
+          className="scrolldown"
+        >
+          <a
+            className="smoothscroll"
+            href="#about"
+          >
+            <i
+              className="icon-down-circle"
+            />
+          </a>
+        </p>,
+      ],
+      "id": "home",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <a
+              className="mobile-btn"
+              href="#nav-wrap"
+              title="Show navigation"
+            >
+              Show navigation
+            </a>,
+            <a
+              className="mobile-btn"
+              href="#"
+              title="Hide navigation"
+            >
+              Hide navigation
+            </a>,
+            <ul
+              className="nav"
+              id="nav"
+            >
+              <li
+                className="current"
+              >
+                <a
+                  className="smoothscroll"
+                  href="#home"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  className="smoothscroll"
+                  href="#about"
+                >
+                  About
+                </a>
+              </li>
+              <li>
+                <a
+                  className="smoothscroll"
+                  href="#resume"
+                >
+                  Resume
+                </a>
+              </li>
+            </ul>,
+          ],
+          "id": "nav-wrap",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Show navigation",
+              "className": "mobile-btn",
+              "href": "#nav-wrap",
+              "title": "Show navigation",
+            },
+            "ref": null,
+            "rendered": "Show navigation",
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Hide navigation",
+              "className": "mobile-btn",
+              "href": "#",
+              "title": "Hide navigation",
+            },
+            "ref": null,
+            "rendered": "Hide navigation",
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <li
+                  className="current"
+                >
+                  <a
+                    className="smoothscroll"
+                    href="#home"
+                  >
+                    Home
+                  </a>
+                </li>,
+                <li>
+                  <a
+                    className="smoothscroll"
+                    href="#about"
+                  >
+                    About
+                  </a>
+                </li>,
+                <li>
+                  <a
+                    className="smoothscroll"
+                    href="#resume"
+                  >
+                    Resume
+                  </a>
+                </li>,
+              ],
+              "className": "nav",
+              "id": "nav",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    className="smoothscroll"
+                    href="#home"
+                  >
+                    Home
+                  </a>,
+                  "className": "current",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Home",
+                    "className": "smoothscroll",
+                    "href": "#home",
+                  },
+                  "ref": null,
+                  "rendered": "Home",
+                  "type": "a",
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    className="smoothscroll"
+                    href="#about"
+                  >
+                    About
+                  </a>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "About",
+                    "className": "smoothscroll",
+                    "href": "#about",
+                  },
+                  "ref": null,
+                  "rendered": "About",
+                  "type": "a",
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    className="smoothscroll"
+                    href="#resume"
+                  >
+                    Resume
+                  </a>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Resume",
+                    "className": "smoothscroll",
+                    "href": "#resume",
+                  },
+                  "ref": null,
+                  "rendered": "Resume",
+                  "type": "a",
+                },
+                "type": "li",
+              },
+            ],
+            "type": "ul",
+          },
+        ],
+        "type": "nav",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="banner-text"
+          >
+            <h1
+              className="responsive-headline"
+            >
+              I'm 
+              Steve McKinnon
+              .
+            </h1>
+            <h3>
+              I'm a Glasgow based front end developer and web designer creating modern web apps in the financial sector.
+               Let's 
+              <a
+                className="smoothscroll"
+                href="#about"
+              >
+                start scrolling 
+              </a>
+              and learn more 
+              <a
+                className="smoothscroll"
+                href="#about"
+              >
+                about me
+              </a>
+              .
+            </h3>
+            <hr />
+            <ul
+              className="social"
+            >
+              <li>
+                <a
+                  href="http://twitter.com/stevenmckinnon"
+                >
+                  <i
+                    className="fa fa-twitter"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/stevenmckinnon92/"
+                >
+                  <i
+                    className="fa fa-linkedin"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="http://instagram.com/stevenmckinnon"
+                >
+                  <i
+                    className="fa fa-instagram"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="http://stevenmckinnon.co.uk"
+                  title="Steve McKinnon Photography"
+                >
+                  <i
+                    className="fa fa-camera"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/stevenmckinnon"
+                >
+                  <i
+                    className="fa fa-github"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>,
+          "className": "row banner",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1
+                className="responsive-headline"
+              >
+                I'm 
+                Steve McKinnon
+                .
+              </h1>,
+              <h3>
+                I'm a Glasgow based front end developer and web designer creating modern web apps in the financial sector.
+                 Let's 
+                <a
+                  className="smoothscroll"
+                  href="#about"
+                >
+                  start scrolling 
+                </a>
+                and learn more 
+                <a
+                  className="smoothscroll"
+                  href="#about"
+                >
+                  about me
+                </a>
+                .
+              </h3>,
+              <hr />,
+              <ul
+                className="social"
+              >
+                <li>
+                  <a
+                    href="http://twitter.com/stevenmckinnon"
+                  >
+                    <i
+                      className="fa fa-twitter"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/stevenmckinnon92/"
+                  >
+                    <i
+                      className="fa fa-linkedin"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="http://instagram.com/stevenmckinnon"
+                  >
+                    <i
+                      className="fa fa-instagram"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="http://stevenmckinnon.co.uk"
+                    title="Steve McKinnon Photography"
+                  >
+                    <i
+                      className="fa fa-camera"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/stevenmckinnon"
+                  >
+                    <i
+                      className="fa fa-github"
+                    />
+                  </a>
+                </li>
+              </ul>,
+            ],
+            "className": "banner-text",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "I'm ",
+                  "Steve McKinnon",
+                  ".",
+                ],
+                "className": "responsive-headline",
+              },
+              "ref": null,
+              "rendered": Array [
+                "I'm ",
+                "Steve McKinnon",
+                ".",
+              ],
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "I'm a Glasgow based front end developer and web designer creating modern web apps in the financial sector.",
+                  " Let's ",
+                  <a
+                    className="smoothscroll"
+                    href="#about"
+                  >
+                    start scrolling 
+                  </a>,
+                  "and learn more ",
+                  <a
+                    className="smoothscroll"
+                    href="#about"
+                  >
+                    about me
+                  </a>,
+                  ".",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "I'm a Glasgow based front end developer and web designer creating modern web apps in the financial sector.",
+                " Let's ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "start scrolling ",
+                    "className": "smoothscroll",
+                    "href": "#about",
+                  },
+                  "ref": null,
+                  "rendered": "start scrolling ",
+                  "type": "a",
+                },
+                "and learn more ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "about me",
+                    "className": "smoothscroll",
+                    "href": "#about",
+                  },
+                  "ref": null,
+                  "rendered": "about me",
+                  "type": "a",
+                },
+                ".",
+              ],
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "hr",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <li>
+                    <a
+                      href="http://twitter.com/stevenmckinnon"
+                    >
+                      <i
+                        className="fa fa-twitter"
+                      />
+                    </a>
+                  </li>,
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/stevenmckinnon92/"
+                    >
+                      <i
+                        className="fa fa-linkedin"
+                      />
+                    </a>
+                  </li>,
+                  <li>
+                    <a
+                      href="http://instagram.com/stevenmckinnon"
+                    >
+                      <i
+                        className="fa fa-instagram"
+                      />
+                    </a>
+                  </li>,
+                  <li>
+                    <a
+                      href="http://stevenmckinnon.co.uk"
+                      title="Steve McKinnon Photography"
+                    >
+                      <i
+                        className="fa fa-camera"
+                      />
+                    </a>
+                  </li>,
+                  <li>
+                    <a
+                      href="https://github.com/stevenmckinnon"
+                    >
+                      <i
+                        className="fa fa-github"
+                      />
+                    </a>
+                  </li>,
+                ],
+                "className": "social",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <a
+                      href="http://twitter.com/stevenmckinnon"
+                    >
+                      <i
+                        className="fa fa-twitter"
+                      />
+                    </a>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <i
+                        className="fa fa-twitter"
+                      />,
+                      "href": "http://twitter.com/stevenmckinnon",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "fa fa-twitter",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    "type": "a",
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <a
+                      href="https://www.linkedin.com/in/stevenmckinnon92/"
+                    >
+                      <i
+                        className="fa fa-linkedin"
+                      />
+                    </a>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <i
+                        className="fa fa-linkedin"
+                      />,
+                      "href": "https://www.linkedin.com/in/stevenmckinnon92/",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "fa fa-linkedin",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    "type": "a",
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <a
+                      href="http://instagram.com/stevenmckinnon"
+                    >
+                      <i
+                        className="fa fa-instagram"
+                      />
+                    </a>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <i
+                        className="fa fa-instagram"
+                      />,
+                      "href": "http://instagram.com/stevenmckinnon",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "fa fa-instagram",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    "type": "a",
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <a
+                      href="http://stevenmckinnon.co.uk"
+                      title="Steve McKinnon Photography"
+                    >
+                      <i
+                        className="fa fa-camera"
+                      />
+                    </a>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <i
+                        className="fa fa-camera"
+                      />,
+                      "href": "http://stevenmckinnon.co.uk",
+                      "title": "Steve McKinnon Photography",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "fa fa-camera",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    "type": "a",
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <a
+                      href="https://github.com/stevenmckinnon"
+                    >
+                      <i
+                        className="fa fa-github"
+                      />
+                    </a>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <i
+                        className="fa fa-github"
+                      />,
+                      "href": "https://github.com/stevenmckinnon",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "fa fa-github",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    "type": "a",
+                  },
+                  "type": "li",
+                },
+              ],
+              "type": "ul",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <a
+            className="smoothscroll"
+            href="#about"
+          >
+            <i
+              className="icon-down-circle"
+            />
+          </a>,
+          "className": "scrolldown",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <i
+              className="icon-down-circle"
+            />,
+            "className": "smoothscroll",
+            "href": "#about",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "icon-down-circle",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "i",
+          },
+          "type": "a",
+        },
+        "type": "p",
+      },
+    ],
+    "type": "header",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <nav
+            id="nav-wrap"
+          >
+            <a
+              className="mobile-btn"
+              href="#nav-wrap"
+              title="Show navigation"
+            >
+              Show navigation
+            </a>
+            <a
+              className="mobile-btn"
+              href="#"
+              title="Hide navigation"
+            >
+              Hide navigation
+            </a>
+            <ul
+              className="nav"
+              id="nav"
+            >
+              <li
+                className="current"
+              >
+                <a
+                  className="smoothscroll"
+                  href="#home"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  className="smoothscroll"
+                  href="#about"
+                >
+                  About
+                </a>
+              </li>
+              <li>
+                <a
+                  className="smoothscroll"
+                  href="#resume"
+                >
+                  Resume
+                </a>
+              </li>
+            </ul>
+          </nav>,
+          <div
+            className="row banner"
+          >
+            <div
+              className="banner-text"
+            >
+              <h1
+                className="responsive-headline"
+              >
+                I'm 
+                Steve McKinnon
+                .
+              </h1>
+              <h3>
+                I'm a Glasgow based front end developer and web designer creating modern web apps in the financial sector.
+                 Let's 
+                <a
+                  className="smoothscroll"
+                  href="#about"
+                >
+                  start scrolling 
+                </a>
+                and learn more 
+                <a
+                  className="smoothscroll"
+                  href="#about"
+                >
+                  about me
+                </a>
+                .
+              </h3>
+              <hr />
+              <ul
+                className="social"
+              >
+                <li>
+                  <a
+                    href="http://twitter.com/stevenmckinnon"
+                  >
+                    <i
+                      className="fa fa-twitter"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/stevenmckinnon92/"
+                  >
+                    <i
+                      className="fa fa-linkedin"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="http://instagram.com/stevenmckinnon"
+                  >
+                    <i
+                      className="fa fa-instagram"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="http://stevenmckinnon.co.uk"
+                    title="Steve McKinnon Photography"
+                  >
+                    <i
+                      className="fa fa-camera"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/stevenmckinnon"
+                  >
+                    <i
+                      className="fa fa-github"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>,
+          <p
+            className="scrolldown"
+          >
+            <a
+              className="smoothscroll"
+              href="#about"
+            >
+              <i
+                className="icon-down-circle"
+              />
+            </a>
+          </p>,
+        ],
+        "id": "home",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <a
+                className="mobile-btn"
+                href="#nav-wrap"
+                title="Show navigation"
+              >
+                Show navigation
+              </a>,
+              <a
+                className="mobile-btn"
+                href="#"
+                title="Hide navigation"
+              >
+                Hide navigation
+              </a>,
+              <ul
+                className="nav"
+                id="nav"
+              >
+                <li
+                  className="current"
+                >
+                  <a
+                    className="smoothscroll"
+                    href="#home"
+                  >
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="smoothscroll"
+                    href="#about"
+                  >
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="smoothscroll"
+                    href="#resume"
+                  >
+                    Resume
+                  </a>
+                </li>
+              </ul>,
+            ],
+            "id": "nav-wrap",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Show navigation",
+                "className": "mobile-btn",
+                "href": "#nav-wrap",
+                "title": "Show navigation",
+              },
+              "ref": null,
+              "rendered": "Show navigation",
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Hide navigation",
+                "className": "mobile-btn",
+                "href": "#",
+                "title": "Hide navigation",
+              },
+              "ref": null,
+              "rendered": "Hide navigation",
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <li
+                    className="current"
+                  >
+                    <a
+                      className="smoothscroll"
+                      href="#home"
+                    >
+                      Home
+                    </a>
+                  </li>,
+                  <li>
+                    <a
+                      className="smoothscroll"
+                      href="#about"
+                    >
+                      About
+                    </a>
+                  </li>,
+                  <li>
+                    <a
+                      className="smoothscroll"
+                      href="#resume"
+                    >
+                      Resume
+                    </a>
+                  </li>,
+                ],
+                "className": "nav",
+                "id": "nav",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <a
+                      className="smoothscroll"
+                      href="#home"
+                    >
+                      Home
+                    </a>,
+                    "className": "current",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Home",
+                      "className": "smoothscroll",
+                      "href": "#home",
+                    },
+                    "ref": null,
+                    "rendered": "Home",
+                    "type": "a",
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <a
+                      className="smoothscroll"
+                      href="#about"
+                    >
+                      About
+                    </a>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "About",
+                      "className": "smoothscroll",
+                      "href": "#about",
+                    },
+                    "ref": null,
+                    "rendered": "About",
+                    "type": "a",
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <a
+                      className="smoothscroll"
+                      href="#resume"
+                    >
+                      Resume
+                    </a>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Resume",
+                      "className": "smoothscroll",
+                      "href": "#resume",
+                    },
+                    "ref": null,
+                    "rendered": "Resume",
+                    "type": "a",
+                  },
+                  "type": "li",
+                },
+              ],
+              "type": "ul",
+            },
+          ],
+          "type": "nav",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="banner-text"
+            >
+              <h1
+                className="responsive-headline"
+              >
+                I'm 
+                Steve McKinnon
+                .
+              </h1>
+              <h3>
+                I'm a Glasgow based front end developer and web designer creating modern web apps in the financial sector.
+                 Let's 
+                <a
+                  className="smoothscroll"
+                  href="#about"
+                >
+                  start scrolling 
+                </a>
+                and learn more 
+                <a
+                  className="smoothscroll"
+                  href="#about"
+                >
+                  about me
+                </a>
+                .
+              </h3>
+              <hr />
+              <ul
+                className="social"
+              >
+                <li>
+                  <a
+                    href="http://twitter.com/stevenmckinnon"
+                  >
+                    <i
+                      className="fa fa-twitter"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/stevenmckinnon92/"
+                  >
+                    <i
+                      className="fa fa-linkedin"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="http://instagram.com/stevenmckinnon"
+                  >
+                    <i
+                      className="fa fa-instagram"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="http://stevenmckinnon.co.uk"
+                    title="Steve McKinnon Photography"
+                  >
+                    <i
+                      className="fa fa-camera"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/stevenmckinnon"
+                  >
+                    <i
+                      className="fa fa-github"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>,
+            "className": "row banner",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h1
+                  className="responsive-headline"
+                >
+                  I'm 
+                  Steve McKinnon
+                  .
+                </h1>,
+                <h3>
+                  I'm a Glasgow based front end developer and web designer creating modern web apps in the financial sector.
+                   Let's 
+                  <a
+                    className="smoothscroll"
+                    href="#about"
+                  >
+                    start scrolling 
+                  </a>
+                  and learn more 
+                  <a
+                    className="smoothscroll"
+                    href="#about"
+                  >
+                    about me
+                  </a>
+                  .
+                </h3>,
+                <hr />,
+                <ul
+                  className="social"
+                >
+                  <li>
+                    <a
+                      href="http://twitter.com/stevenmckinnon"
+                    >
+                      <i
+                        className="fa fa-twitter"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/stevenmckinnon92/"
+                    >
+                      <i
+                        className="fa fa-linkedin"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="http://instagram.com/stevenmckinnon"
+                    >
+                      <i
+                        className="fa fa-instagram"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="http://stevenmckinnon.co.uk"
+                      title="Steve McKinnon Photography"
+                    >
+                      <i
+                        className="fa fa-camera"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/stevenmckinnon"
+                    >
+                      <i
+                        className="fa fa-github"
+                      />
+                    </a>
+                  </li>
+                </ul>,
+              ],
+              "className": "banner-text",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "I'm ",
+                    "Steve McKinnon",
+                    ".",
+                  ],
+                  "className": "responsive-headline",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "I'm ",
+                  "Steve McKinnon",
+                  ".",
+                ],
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "I'm a Glasgow based front end developer and web designer creating modern web apps in the financial sector.",
+                    " Let's ",
+                    <a
+                      className="smoothscroll"
+                      href="#about"
+                    >
+                      start scrolling 
+                    </a>,
+                    "and learn more ",
+                    <a
+                      className="smoothscroll"
+                      href="#about"
+                    >
+                      about me
+                    </a>,
+                    ".",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "I'm a Glasgow based front end developer and web designer creating modern web apps in the financial sector.",
+                  " Let's ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "start scrolling ",
+                      "className": "smoothscroll",
+                      "href": "#about",
+                    },
+                    "ref": null,
+                    "rendered": "start scrolling ",
+                    "type": "a",
+                  },
+                  "and learn more ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "about me",
+                      "className": "smoothscroll",
+                      "href": "#about",
+                    },
+                    "ref": null,
+                    "rendered": "about me",
+                    "type": "a",
+                  },
+                  ".",
+                ],
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "hr",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <li>
+                      <a
+                        href="http://twitter.com/stevenmckinnon"
+                      >
+                        <i
+                          className="fa fa-twitter"
+                        />
+                      </a>
+                    </li>,
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/stevenmckinnon92/"
+                      >
+                        <i
+                          className="fa fa-linkedin"
+                        />
+                      </a>
+                    </li>,
+                    <li>
+                      <a
+                        href="http://instagram.com/stevenmckinnon"
+                      >
+                        <i
+                          className="fa fa-instagram"
+                        />
+                      </a>
+                    </li>,
+                    <li>
+                      <a
+                        href="http://stevenmckinnon.co.uk"
+                        title="Steve McKinnon Photography"
+                      >
+                        <i
+                          className="fa fa-camera"
+                        />
+                      </a>
+                    </li>,
+                    <li>
+                      <a
+                        href="https://github.com/stevenmckinnon"
+                      >
+                        <i
+                          className="fa fa-github"
+                        />
+                      </a>
+                    </li>,
+                  ],
+                  "className": "social",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="http://twitter.com/stevenmckinnon"
+                      >
+                        <i
+                          className="fa fa-twitter"
+                        />
+                      </a>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <i
+                          className="fa fa-twitter"
+                        />,
+                        "href": "http://twitter.com/stevenmckinnon",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "fa fa-twitter",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "i",
+                      },
+                      "type": "a",
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="https://www.linkedin.com/in/stevenmckinnon92/"
+                      >
+                        <i
+                          className="fa fa-linkedin"
+                        />
+                      </a>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <i
+                          className="fa fa-linkedin"
+                        />,
+                        "href": "https://www.linkedin.com/in/stevenmckinnon92/",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "fa fa-linkedin",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "i",
+                      },
+                      "type": "a",
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="http://instagram.com/stevenmckinnon"
+                      >
+                        <i
+                          className="fa fa-instagram"
+                        />
+                      </a>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <i
+                          className="fa fa-instagram"
+                        />,
+                        "href": "http://instagram.com/stevenmckinnon",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "fa fa-instagram",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "i",
+                      },
+                      "type": "a",
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="http://stevenmckinnon.co.uk"
+                        title="Steve McKinnon Photography"
+                      >
+                        <i
+                          className="fa fa-camera"
+                        />
+                      </a>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <i
+                          className="fa fa-camera"
+                        />,
+                        "href": "http://stevenmckinnon.co.uk",
+                        "title": "Steve McKinnon Photography",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "fa fa-camera",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "i",
+                      },
+                      "type": "a",
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="https://github.com/stevenmckinnon"
+                      >
+                        <i
+                          className="fa fa-github"
+                        />
+                      </a>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <i
+                          className="fa fa-github"
+                        />,
+                        "href": "https://github.com/stevenmckinnon",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "fa fa-github",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "i",
+                      },
+                      "type": "a",
+                    },
+                    "type": "li",
+                  },
+                ],
+                "type": "ul",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <a
+              className="smoothscroll"
+              href="#about"
+            >
+              <i
+                className="icon-down-circle"
+              />
+            </a>,
+            "className": "scrolldown",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <i
+                className="icon-down-circle"
+              />,
+              "className": "smoothscroll",
+              "href": "#about",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "icon-down-circle",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+            "type": "a",
+          },
+          "type": "p",
+        },
+      ],
+      "type": "header",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

@@ -1,0 +1,839 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests the App component renders the App component data 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App
+    data={
+      Object {
+        "error": null,
+        "loading": false,
+        "personalDetailses": Object {
+          "edges": Array [
+            Object {
+              "node": Object {
+                "biography": "I am a dev, hear me roar",
+                "cvUrl": "http://url.com",
+                "educations": Array [
+                  Object {
+                    "course": "Course name (BSc Hons)",
+                    "fromDate": "2010-09-13T00:00:00.000Z",
+                    "name": "Uni name",
+                    "toDate": "2014-05-21T00:00:00.000Z",
+                  },
+                ],
+                "email": "hello@email.com",
+                "location": "New York, NY",
+                "name": "John Smith",
+                "photo": Object {
+                  "handle": "handle",
+                  "height": 1333,
+                  "width": 1333,
+                },
+                "skills": Array [
+                  "JavaScript",
+                  "HTML",
+                  "CSS",
+                  "Partying",
+                ],
+                "socialMedia": Object {
+                  "github": "https://github.com/stevenmckinnon",
+                  "instagram": "http://instagram.com/stevenmckinnon",
+                  "linkedIn": "https://www.linkedin.com/in/stevenmckinnon92/",
+                  "photography": "http://stevenmckinnon.co.uk",
+                  "twitter": "http://twitter.com/stevenmckinnon",
+                },
+                "workExperiences": Array [
+                  Object {
+                    "company": "Company Name",
+                    "description": "Description of role",
+                    "fromDate": "2018-06-20T00:00:00.000Z",
+                    "jobTitle": "Job title 1",
+                    "toDate": null,
+                  },
+                  Object {
+                    "company": "Company Name 2",
+                    "description": "Description of role",
+                    "fromDate": "2018-06-20T00:00:00.000Z",
+                    "jobTitle": "Job title 2",
+                    "toDate": null,
+                  },
+                ],
+              },
+            },
+          ],
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Header
+          name="John Smith"
+          socialMedia={
+            Object {
+              "github": "https://github.com/stevenmckinnon",
+              "instagram": "http://instagram.com/stevenmckinnon",
+              "linkedIn": "https://www.linkedin.com/in/stevenmckinnon92/",
+              "photography": "http://stevenmckinnon.co.uk",
+              "twitter": "http://twitter.com/stevenmckinnon",
+            }
+          }
+        />,
+        <About
+          personalDetails={
+            Object {
+              "biography": "I am a dev, hear me roar",
+              "cvUrl": "http://url.com",
+              "educations": Array [
+                Object {
+                  "course": "Course name (BSc Hons)",
+                  "fromDate": "2010-09-13T00:00:00.000Z",
+                  "name": "Uni name",
+                  "toDate": "2014-05-21T00:00:00.000Z",
+                },
+              ],
+              "email": "hello@email.com",
+              "location": "New York, NY",
+              "name": "John Smith",
+              "photo": Object {
+                "handle": "handle",
+                "height": 1333,
+                "width": 1333,
+              },
+              "skills": Array [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "Partying",
+              ],
+              "socialMedia": Object {
+                "github": "https://github.com/stevenmckinnon",
+                "instagram": "http://instagram.com/stevenmckinnon",
+                "linkedIn": "https://www.linkedin.com/in/stevenmckinnon92/",
+                "photography": "http://stevenmckinnon.co.uk",
+                "twitter": "http://twitter.com/stevenmckinnon",
+              },
+              "workExperiences": Array [
+                Object {
+                  "company": "Company Name",
+                  "description": "Description of role",
+                  "fromDate": "2018-06-20T00:00:00.000Z",
+                  "jobTitle": "Job title 1",
+                  "toDate": null,
+                },
+                Object {
+                  "company": "Company Name 2",
+                  "description": "Description of role",
+                  "fromDate": "2018-06-20T00:00:00.000Z",
+                  "jobTitle": "Job title 2",
+                  "toDate": null,
+                },
+              ],
+            }
+          }
+          photo={
+            Object {
+              "handle": "handle",
+              "height": 1333,
+              "width": 1333,
+            }
+          }
+        />,
+        <Resume
+          education={
+            Array [
+              Object {
+                "course": "Course name (BSc Hons)",
+                "fromDate": "2010-09-13T00:00:00.000Z",
+                "name": "Uni name",
+                "toDate": "2014-05-21T00:00:00.000Z",
+              },
+            ]
+          }
+          work={
+            Array [
+              Object {
+                "company": "Company Name",
+                "description": "Description of role",
+                "fromDate": "2018-06-20T00:00:00.000Z",
+                "jobTitle": "Job title 1",
+                "toDate": null,
+              },
+              Object {
+                "company": "Company Name 2",
+                "description": "Description of role",
+                "fromDate": "2018-06-20T00:00:00.000Z",
+                "jobTitle": "Job title 2",
+                "toDate": null,
+              },
+            ]
+          }
+        />,
+        <Footer
+          name="John Smith"
+          socialMedia={
+            Object {
+              "github": "https://github.com/stevenmckinnon",
+              "instagram": "http://instagram.com/stevenmckinnon",
+              "linkedIn": "https://www.linkedin.com/in/stevenmckinnon92/",
+              "photography": "http://stevenmckinnon.co.uk",
+              "twitter": "http://twitter.com/stevenmckinnon",
+            }
+          }
+        />,
+      ],
+      "className": "App",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "intro": undefined,
+          "name": "John Smith",
+          "socialMedia": Object {
+            "github": "https://github.com/stevenmckinnon",
+            "instagram": "http://instagram.com/stevenmckinnon",
+            "linkedIn": "https://www.linkedin.com/in/stevenmckinnon92/",
+            "photography": "http://stevenmckinnon.co.uk",
+            "twitter": "http://twitter.com/stevenmckinnon",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "personalDetails": Object {
+            "biography": "I am a dev, hear me roar",
+            "cvUrl": "http://url.com",
+            "educations": Array [
+              Object {
+                "course": "Course name (BSc Hons)",
+                "fromDate": "2010-09-13T00:00:00.000Z",
+                "name": "Uni name",
+                "toDate": "2014-05-21T00:00:00.000Z",
+              },
+            ],
+            "email": "hello@email.com",
+            "location": "New York, NY",
+            "name": "John Smith",
+            "photo": Object {
+              "handle": "handle",
+              "height": 1333,
+              "width": 1333,
+            },
+            "skills": Array [
+              "JavaScript",
+              "HTML",
+              "CSS",
+              "Partying",
+            ],
+            "socialMedia": Object {
+              "github": "https://github.com/stevenmckinnon",
+              "instagram": "http://instagram.com/stevenmckinnon",
+              "linkedIn": "https://www.linkedin.com/in/stevenmckinnon92/",
+              "photography": "http://stevenmckinnon.co.uk",
+              "twitter": "http://twitter.com/stevenmckinnon",
+            },
+            "workExperiences": Array [
+              Object {
+                "company": "Company Name",
+                "description": "Description of role",
+                "fromDate": "2018-06-20T00:00:00.000Z",
+                "jobTitle": "Job title 1",
+                "toDate": null,
+              },
+              Object {
+                "company": "Company Name 2",
+                "description": "Description of role",
+                "fromDate": "2018-06-20T00:00:00.000Z",
+                "jobTitle": "Job title 2",
+                "toDate": null,
+              },
+            ],
+          },
+          "photo": Object {
+            "handle": "handle",
+            "height": 1333,
+            "width": 1333,
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "education": Array [
+            Object {
+              "course": "Course name (BSc Hons)",
+              "fromDate": "2010-09-13T00:00:00.000Z",
+              "name": "Uni name",
+              "toDate": "2014-05-21T00:00:00.000Z",
+            },
+          ],
+          "skills": undefined,
+          "work": Array [
+            Object {
+              "company": "Company Name",
+              "description": "Description of role",
+              "fromDate": "2018-06-20T00:00:00.000Z",
+              "jobTitle": "Job title 1",
+              "toDate": null,
+            },
+            Object {
+              "company": "Company Name 2",
+              "description": "Description of role",
+              "fromDate": "2018-06-20T00:00:00.000Z",
+              "jobTitle": "Job title 2",
+              "toDate": null,
+            },
+          ],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "name": "John Smith",
+          "socialMedia": Object {
+            "github": "https://github.com/stevenmckinnon",
+            "instagram": "http://instagram.com/stevenmckinnon",
+            "linkedIn": "https://www.linkedin.com/in/stevenmckinnon92/",
+            "photography": "http://stevenmckinnon.co.uk",
+            "twitter": "http://twitter.com/stevenmckinnon",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Header
+            name="John Smith"
+            socialMedia={
+              Object {
+                "github": "https://github.com/stevenmckinnon",
+                "instagram": "http://instagram.com/stevenmckinnon",
+                "linkedIn": "https://www.linkedin.com/in/stevenmckinnon92/",
+                "photography": "http://stevenmckinnon.co.uk",
+                "twitter": "http://twitter.com/stevenmckinnon",
+              }
+            }
+          />,
+          <About
+            personalDetails={
+              Object {
+                "biography": "I am a dev, hear me roar",
+                "cvUrl": "http://url.com",
+                "educations": Array [
+                  Object {
+                    "course": "Course name (BSc Hons)",
+                    "fromDate": "2010-09-13T00:00:00.000Z",
+                    "name": "Uni name",
+                    "toDate": "2014-05-21T00:00:00.000Z",
+                  },
+                ],
+                "email": "hello@email.com",
+                "location": "New York, NY",
+                "name": "John Smith",
+                "photo": Object {
+                  "handle": "handle",
+                  "height": 1333,
+                  "width": 1333,
+                },
+                "skills": Array [
+                  "JavaScript",
+                  "HTML",
+                  "CSS",
+                  "Partying",
+                ],
+                "socialMedia": Object {
+                  "github": "https://github.com/stevenmckinnon",
+                  "instagram": "http://instagram.com/stevenmckinnon",
+                  "linkedIn": "https://www.linkedin.com/in/stevenmckinnon92/",
+                  "photography": "http://stevenmckinnon.co.uk",
+                  "twitter": "http://twitter.com/stevenmckinnon",
+                },
+                "workExperiences": Array [
+                  Object {
+                    "company": "Company Name",
+                    "description": "Description of role",
+                    "fromDate": "2018-06-20T00:00:00.000Z",
+                    "jobTitle": "Job title 1",
+                    "toDate": null,
+                  },
+                  Object {
+                    "company": "Company Name 2",
+                    "description": "Description of role",
+                    "fromDate": "2018-06-20T00:00:00.000Z",
+                    "jobTitle": "Job title 2",
+                    "toDate": null,
+                  },
+                ],
+              }
+            }
+            photo={
+              Object {
+                "handle": "handle",
+                "height": 1333,
+                "width": 1333,
+              }
+            }
+          />,
+          <Resume
+            education={
+              Array [
+                Object {
+                  "course": "Course name (BSc Hons)",
+                  "fromDate": "2010-09-13T00:00:00.000Z",
+                  "name": "Uni name",
+                  "toDate": "2014-05-21T00:00:00.000Z",
+                },
+              ]
+            }
+            work={
+              Array [
+                Object {
+                  "company": "Company Name",
+                  "description": "Description of role",
+                  "fromDate": "2018-06-20T00:00:00.000Z",
+                  "jobTitle": "Job title 1",
+                  "toDate": null,
+                },
+                Object {
+                  "company": "Company Name 2",
+                  "description": "Description of role",
+                  "fromDate": "2018-06-20T00:00:00.000Z",
+                  "jobTitle": "Job title 2",
+                  "toDate": null,
+                },
+              ]
+            }
+          />,
+          <Footer
+            name="John Smith"
+            socialMedia={
+              Object {
+                "github": "https://github.com/stevenmckinnon",
+                "instagram": "http://instagram.com/stevenmckinnon",
+                "linkedIn": "https://www.linkedin.com/in/stevenmckinnon92/",
+                "photography": "http://stevenmckinnon.co.uk",
+                "twitter": "http://twitter.com/stevenmckinnon",
+              }
+            }
+          />,
+        ],
+        "className": "App",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "intro": undefined,
+            "name": "John Smith",
+            "socialMedia": Object {
+              "github": "https://github.com/stevenmckinnon",
+              "instagram": "http://instagram.com/stevenmckinnon",
+              "linkedIn": "https://www.linkedin.com/in/stevenmckinnon92/",
+              "photography": "http://stevenmckinnon.co.uk",
+              "twitter": "http://twitter.com/stevenmckinnon",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "personalDetails": Object {
+              "biography": "I am a dev, hear me roar",
+              "cvUrl": "http://url.com",
+              "educations": Array [
+                Object {
+                  "course": "Course name (BSc Hons)",
+                  "fromDate": "2010-09-13T00:00:00.000Z",
+                  "name": "Uni name",
+                  "toDate": "2014-05-21T00:00:00.000Z",
+                },
+              ],
+              "email": "hello@email.com",
+              "location": "New York, NY",
+              "name": "John Smith",
+              "photo": Object {
+                "handle": "handle",
+                "height": 1333,
+                "width": 1333,
+              },
+              "skills": Array [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "Partying",
+              ],
+              "socialMedia": Object {
+                "github": "https://github.com/stevenmckinnon",
+                "instagram": "http://instagram.com/stevenmckinnon",
+                "linkedIn": "https://www.linkedin.com/in/stevenmckinnon92/",
+                "photography": "http://stevenmckinnon.co.uk",
+                "twitter": "http://twitter.com/stevenmckinnon",
+              },
+              "workExperiences": Array [
+                Object {
+                  "company": "Company Name",
+                  "description": "Description of role",
+                  "fromDate": "2018-06-20T00:00:00.000Z",
+                  "jobTitle": "Job title 1",
+                  "toDate": null,
+                },
+                Object {
+                  "company": "Company Name 2",
+                  "description": "Description of role",
+                  "fromDate": "2018-06-20T00:00:00.000Z",
+                  "jobTitle": "Job title 2",
+                  "toDate": null,
+                },
+              ],
+            },
+            "photo": Object {
+              "handle": "handle",
+              "height": 1333,
+              "width": 1333,
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "education": Array [
+              Object {
+                "course": "Course name (BSc Hons)",
+                "fromDate": "2010-09-13T00:00:00.000Z",
+                "name": "Uni name",
+                "toDate": "2014-05-21T00:00:00.000Z",
+              },
+            ],
+            "skills": undefined,
+            "work": Array [
+              Object {
+                "company": "Company Name",
+                "description": "Description of role",
+                "fromDate": "2018-06-20T00:00:00.000Z",
+                "jobTitle": "Job title 1",
+                "toDate": null,
+              },
+              Object {
+                "company": "Company Name 2",
+                "description": "Description of role",
+                "fromDate": "2018-06-20T00:00:00.000Z",
+                "jobTitle": "Job title 2",
+                "toDate": null,
+              },
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "name": "John Smith",
+            "socialMedia": Object {
+              "github": "https://github.com/stevenmckinnon",
+              "instagram": "http://instagram.com/stevenmckinnon",
+              "linkedIn": "https://www.linkedin.com/in/stevenmckinnon92/",
+              "photography": "http://stevenmckinnon.co.uk",
+              "twitter": "http://twitter.com/stevenmckinnon",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Tests the App component renders the App component error 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App
+    data={
+      Object {
+        "error": "error",
+        "loading": false,
+        "personalDetailses": Object {},
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": "Error fetching the data!",
+    },
+    "ref": null,
+    "rendered": "Error fetching the data!",
+    "type": "h1",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": "Error fetching the data!",
+      },
+      "ref": null,
+      "rendered": "Error fetching the data!",
+      "type": "h1",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Tests the App component renders the App component loading 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App
+    data={
+      Object {
+        "error": null,
+        "loading": true,
+        "personalDetailses": Object {},
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          id="spinContain"
+        />,
+        <div
+          id="spinContainT"
+        />,
+      ],
+      "className": "loading",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "id": "spinContain",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "id": "spinContainT",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            id="spinContain"
+          />,
+          <div
+            id="spinContainT"
+          />,
+        ],
+        "className": "loading",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "id": "spinContain",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "id": "spinContainT",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

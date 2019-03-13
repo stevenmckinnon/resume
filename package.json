@@ -20,11 +20,45 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.5"
   },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.0",
+    "enzyme-to-json": "^3.3.5",
+    "react-hot-loader": "^4.8.0",
+    "react-test-renderer": "^16.8.4"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/components/**",
+      "src/App.js",
+      "!src/index.js"
+    ],
+    "coverageReporters": [
+      "json",
+      "lcov"
+    ],
+    "modulePathIgnorePatterns": [
+      "npm-cache",
+      ".npm"
+    ],
+    "moduleNameMapper": {
+      "\\.(css|less|scss|sass)$": "<rootDir>/src/__mocks__/styleMock.js",
+      "\\.(gif|ttf|eot|svg|jpg|png)$": "<rootDir>/src/__mocks__/fileMock.js"
+    }
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "deploy": "aws s3 cp build/ s3://stevenmckinnon --recursive",
-    "test": "react-scripts test",
+    "test": "jest --outputFile=TestResults.json --coverage --runInBand --setupTestFrameworkScriptFile=raf/polyfill",
+    "test:watch": "npm test -- --watch",
+    "test:update": "npm test -- -u",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
