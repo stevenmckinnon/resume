@@ -19,7 +19,7 @@ You will also see any lint errors in the console.
 
 ## Customisation
 
-To customise the project for your own, add your personal details, education, jobs, and skills via creating a GraphQL schema using [GraphCMS](https://graphcms.com). Follow the tutorial [here](https://docs.graphcms.com) to get started with creating your schema.
+To customise the project for your own, add your personal details, education, jobs, and skills via creating a GraphQL schema using a tool such as [GraphCMS](https://graphcms.com). Follow the tutorial [here](https://docs.graphcms.com) to get started with creating your schema.
 
 ## Support
 
