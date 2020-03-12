@@ -53,9 +53,8 @@
     }
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "HTTPS=true react-scripts start",
     "build": "react-scripts build",
-    "deploy": "aws s3 cp build/ s3://stevenmckinnon --recursive",
     "test": "jest --outputFile=TestResults.json --coverage --runInBand --setupTestFrameworkScriptFile=raf/polyfill",
     "test:watch": "yarn test -- --watch",
     "test:update": "yarn test -- -u",
