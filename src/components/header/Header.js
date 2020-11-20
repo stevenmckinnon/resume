@@ -21,16 +21,16 @@ class Header extends React.Component {
                             and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
                         <hr />
                         <ul className="social">
-                            {this.props.socialMedia.twitter ? <li><a href={this.props.socialMedia.twitter}>
-                                <i className="fa fa-twitter" /></a></li> : null}
-                            {this.props.socialMedia.linkedIn ? <li><a href={this.props.socialMedia.linkedIn}>
-                                <i className="fa fa-linkedin" /></a></li> : null}
-                            {this.props.socialMedia.instagram ? <li><a href={this.props.socialMedia.instagram}>
-                                <i className="fa fa-instagram" /></a></li> : null}
-                            {this.props.socialMedia.photography ? <li><a href={this.props.socialMedia.photography} 
-                                title={`${this.props.name} Photography`}><i className="fa fa-camera" /></a></li> : null}
-                            {this.props.socialMedia.github ? <li><a href={this.props.socialMedia.github}>
-                                <i className='fa fa-github'></i></a></li> : null}
+                            {this.props.socialMedia.twitter && <li><a href={this.props.socialMedia.twitter}>
+                                <i className="fa fa-twitter" /></a></li>}
+                            {this.props.socialMedia.linkedIn && <li><a href={this.props.socialMedia.linkedIn}>
+                                <i className="fa fa-linkedin" /></a></li>}
+                            {this.props.socialMedia.instagram && <li><a href={this.props.socialMedia.instagram}>
+                                <i className="fa fa-instagram" /></a></li>}
+                            {this.props.socialMedia.photography && <li><a href={this.props.socialMedia.photography}
+                                title={`${this.props.name} Photography`}><i className="fa fa-camera" /></a></li>}
+                            {this.props.socialMedia.github && <li><a href={this.props.socialMedia.github}>
+                                <i className='fa fa-github'></i></a></li>}
                         </ul>
                     </div>
                 </div>
