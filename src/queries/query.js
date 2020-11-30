@@ -38,6 +38,7 @@ query content($where: PersonalDetailsWhereInput) {
           instagram
           photography
           github
+          buyMeACoffee
         }
       }
     }

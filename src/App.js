@@ -7,34 +7,38 @@ import Footer from './components/footer/Footer';
 import { graphql } from 'react-apollo';
 import personalDetails from './queries/query';
 
-class App extends React.Component {
-  render() {
-    if (this.props.data.error) return <h1>Error fetching the data!</h1>;
-    if (!this.props.data.loading) {
-        const personalDetails = this.props.data.personalDetailses.edges[0].node;
-        const work = personalDetails.workExperiences;
-        const education = personalDetails.educations;
-        const skills = personalDetails.skills.skills;
-        const intro = personalDetails.intro;
-        const socialMedia = personalDetails.socialMedia;
+const App = props => {
+    if (props.data.error) {
+        return <h1>Error fetching the data!</h1>;
+    } else if (!props.data.loading) {
+        const personalDetails = props.data.personalDetailses.edges[0].node;
+        const {
+            workExperiences,
+            educations,
+            intro,
+            socialMedia,
+            name,
+            photo
+        } = personalDetails;
+        const { skills } = personalDetails.skills;
 
         return (
             <div className="App">
-                <Header name={personalDetails.name} intro={intro} socialMedia={socialMedia} />
-                <About personalDetails={personalDetails} photo={personalDetails.photo} />
-                <Resume work={work} education={education} skills={skills} />
-                <Footer name={personalDetails.name} socialMedia={socialMedia} />
+                <Header name={name} intro={intro} socialMedia={socialMedia} />
+                <About personalDetails={personalDetails} photo={photo} />
+                <Resume work={workExperiences} education={educations} skills={skills} />
+                <Footer name={name} socialMedia={socialMedia} />
             </div>
         );
     }
+
     return (
         <div className="loading">
             <div id="spinContain" />
             <div id="spinContainT" />
         </div>
     );
-  }
-}
+};
 
 export const AppComp = App;
 export default graphql(personalDetails, {
