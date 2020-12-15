@@ -403,6 +403,7 @@ ul#nav li a.current {
 .flexslider .slides > li {
     display: none;
     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 /* Suggested container for slide animation setups. Can replace this with your own */
