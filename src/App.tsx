@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import './App.css';
 import Header from './components/header/Header';
 import About from './components/about/About';
@@ -7,11 +7,15 @@ import Footer from './components/footer/Footer';
 import { graphql } from 'react-apollo';
 import personalDetails from './queries/query';
 
-const App = props => {
-    if (props.data.error) {
+interface Props {
+    data: any;
+}
+
+const App: React.FC<Props> = ({ data }) => {
+    if (data.error) {
         return <h1>Error fetching the data!</h1>;
-    } else if (!props.data.loading) {
-        const personalDetails = props.data.personalDetailses.edges[0].node;
+    } else if (!data.loading) {
+        const personalDetails = data.personalDetailses.edges[0].node;
         const {
             workExperiences,
             educations,
@@ -47,4 +51,4 @@ export default graphql(personalDetails, {
             name: 'Steve McKinnon'
         }
     })
-})(App);
+})(App as any);

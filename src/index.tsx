@@ -1,5 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
@@ -8,7 +8,7 @@ import { HttpLink } from 'apollo-link-http';
 import { InMemoryCache } from 'apollo-cache-inmemory';
 import { ApolloProvider } from 'react-apollo';
 
-const GRAPHCMS_API = 'https://api-eu-central-1.graphcms.com/v2/cjt383sj74vy7019egnoibmgn/master';
+const GRAPHCMS_API: string = 'https://api-eu-central-1.graphcms.com/v2/cjt383sj74vy7019egnoibmgn/master';
 
 const client = new ApolloClient({
     link: new HttpLink({ uri: GRAPHCMS_API }),
