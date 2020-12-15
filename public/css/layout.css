@@ -10,6 +10,10 @@ body {
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
+.smoothscroll {
+    cursor: pointer;
+}
+
 header {
     position: relative;
     height: 800px;
@@ -63,6 +67,10 @@ header .banner-text h3 span,
 header .banner-text h3 a {
     color: #fff;
     font-weight: bolder;
+}
+
+header .banner-text h3 a:hover {
+    color: #11ABB0;
 }
 
 header .banner-text hr {
@@ -184,11 +192,19 @@ ul#nav li a {
     transition: color .2s ease-in-out;
 }
 
+ul#nav li a:hover {
+    color: #11ABB0;
+}
+
 ul#nav li a:active {
     background-color: transparent !important;
 }
 
-ul#nav li.current a {
+ul#nav li a.current {
+    color: #F06000;
+}
+
+.current {
     color: #F06000;
 }
 
@@ -263,7 +279,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: #f0f0f0;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -317,7 +333,6 @@ ul#nav li.current a {
     font-size: 1.4rem;
     line-height: 3rem;
     display: inline-block;
-    float: left;
     margin: 0 0 1.5rem 15px;
     padding: .9rem 2rem;
     position: relative;
@@ -332,6 +347,8 @@ ul#nav li.current a {
     -webkit-transition: all .2s ease-in-out;
     -ms-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+    user-select: none;
+    cursor: default;
 }
 
 .skill-tags:hover {

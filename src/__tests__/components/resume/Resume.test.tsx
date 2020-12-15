@@ -1,9 +1,6 @@
-import Enzyme, { shallow } from 'enzyme';
-import React from 'react';
-import Adapter from 'enzyme-adapter-react-16';
+import { shallow } from 'enzyme';
+import * as React from 'react';
 import Resume from '../../../components/resume/Resume';
-
-Enzyme.configure({ adapter: new Adapter() });
 
 describe('Tests the Resume component', () => {
     it('renders the Resume component', () => {

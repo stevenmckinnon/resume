@@ -1,9 +1,6 @@
-import Enzyme, { shallow } from 'enzyme';
-import React from 'react';
-import Adapter from 'enzyme-adapter-react-16';
+import { shallow } from 'enzyme';
+import * as React from 'react';
 import Footer from '../../../components/footer/Footer';
-
-Enzyme.configure({ adapter: new Adapter() });
 
 describe('Tests the Footer component', () => {
     it('renders the Footer component', () => {
