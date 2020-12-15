@@ -9,9 +9,9 @@ Check out [stevemckinnon.co.uk](http://stevemckinnon.co.uk) for a demo.
 
 ## Installation
 
-To install the dependencies type `npm install` in your terminal.
+To install the dependencies type `yarn` in your terminal.
 
-Then type `npm start` to start the server. This runs the app in the development mode.<br>
+Then type `yarn start` to start the server. This runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
