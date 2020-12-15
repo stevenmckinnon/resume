@@ -149,6 +149,11 @@ header .scrolldown a:hover {
     top: 0;
 }
 
+#nav-wrap .scrolled {
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+}
+
 .opaque {
     background-color: #333;
 }

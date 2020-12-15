@@ -8,5 +8,11 @@
     },
     "rules": {
         "semi": "error"
-    }
+    },
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["@typescript-eslint"],
+    "rules": {
+        "@typescript-eslint/rule-name": "error"
+    },
+    "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"]
 }

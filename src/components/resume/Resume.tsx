@@ -24,20 +24,18 @@ const Resume: React.FC<Props> = ({ work, education, skills }) => (
                 </div>
                 <div className="nine columns main-col">
                     {
-                        work.map((job, index) => {
-                            console.log(job);
-                            return (
-                                <div key={index} className="row item">
-                                    <div className="twelve columns">
-                                        <h3>{job.company}</h3>
-                                        <p className="info">{job.jobTitle} <span>•</span> <em
-                                            className="date">{formatDates(job.fromDate, job.toDate)}</em>
-                                        </p>
-                                        <p>{job.description}</p>
-                                    </div>
+                        work.map((job, index) => (
+                            <div key={index} className="row item">
+                                <div className="twelve columns">
+                                    <h3>{job.company}</h3>
+                                    <p className="info">{job.jobTitle} <span>•</span> <em
+                                        className="date">{formatDates(job.fromDate, job.toDate)}</em>
+                                    </p>
+                                    <p>{job.description}</p>
                                 </div>
-                            )
-                        })
+                            </div>
+                        )
+                        )
                     }
                 </div>
             </div>
@@ -47,8 +45,8 @@ const Resume: React.FC<Props> = ({ work, education, skills }) => (
                     <h1><span>Education</span></h1>
                 </div>
                 <div className="nine columns main-col">
-                    {education.map((school, index) => {
-                        return (
+                    {
+                        education.map((school, index) => (
                             <div key={index} className="row item">
                                 <div className="twelve columns">
                                     <h3>{school.name}</h3>
@@ -56,8 +54,7 @@ const Resume: React.FC<Props> = ({ work, education, skills }) => (
                                         className="date">{formatDates(school.fromDate, school.toDate)}</em></p>
                                 </div>
                             </div>
-                        )
-                    })
+                        ))
                     }
                 </div>
             </div>

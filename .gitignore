@@ -4,3 +4,7 @@ build/
 env/
 .DS_Store
 yarn-error.log
+coverage/lcov-report
+coverage/coverage-final.json
+coverage/coverage-summary.json
+coverage/lcov.info
