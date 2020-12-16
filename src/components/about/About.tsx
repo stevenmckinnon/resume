@@ -1,30 +1,17 @@
 import * as React from 'react';
 import GraphImg from "graphcms-image";
 import { Element } from 'react-scroll';
-
-interface PersonalDetails {
-    name: string;
-    location: string;
-    biography: string;
-    email: string;
-    cvUrl: string;
-}
-
-interface Photo {
-    handle: string;
-    width: number;
-    height: number;
-}
+import { PersonalDetails, Photo } from '../../interfaces';
 
 interface Props {
     photo: Photo;
-    personalDetails: PersonalDetails
+    personalDetails: PersonalDetails;
 }
 
 const About: React.FC<Props> = ({ photo, personalDetails }) => (
     <Element name="about">
         <section id="about">
-            <div className="row">
+            <div className="row about">
                 <div className="three columns">
                     <GraphImg className="profile-pic" image={photo} maxWidth={120} />
                 </div>
@@ -34,8 +21,8 @@ const About: React.FC<Props> = ({ photo, personalDetails }) => (
                     <div className="row">
                         <div className="columns contact-details">
                             <h2>Contact Details</h2>
-                            <p className="address">
-                                <span>{personalDetails.name}</span><br />
+                            <p className="contact">
+                                <span><b>{personalDetails.name}</b></span><br />
                                 <span>{personalDetails.location}</span><br />
                                 <a href={`mailto:${personalDetails.email}`}> <span>
                                     <i className="fa fa-envelope"></i> Email me!</span></a>
