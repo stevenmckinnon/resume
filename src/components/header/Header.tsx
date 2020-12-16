@@ -48,20 +48,22 @@ const Header: React.FC<Props> = ({ name, intro, socialMedia }) => {
                         <hr />
                         <ul className="social">
                             {socialMedia.twitter && <li><a href={socialMedia.twitter}>
-                                <i className="fa fa-twitter" /></a></li>}
+                                <i className="fab fa-twitter" /></a></li>}
                             {socialMedia.linkedIn && <li><a href={socialMedia.linkedIn}>
-                                <i className="fa fa-linkedin" /></a></li>}
+                                <i className="fab fa-linkedin" /></a></li>}
                             {socialMedia.instagram && <li><a href={socialMedia.instagram}>
-                                <i className="fa fa-instagram" /></a></li>}
+                                <i className="fab fa-instagram" /></a></li>}
                             {socialMedia.photography && <li><a href={socialMedia.photography}
                                 title={`${name} Photography`}><i className="fa fa-camera" /></a></li>}
                             {socialMedia.github && <li><a href={socialMedia.github}>
-                                <i className='fa fa-github'></i></a></li>}
+                                <i className='fab fa-github'></i></a></li>}
                         </ul>
                     </div>
                 </div>
                 <p className="scrolldown">
-                    <Link className="smoothscroll" to="about" smooth={true}><i className="icon-down-circle" /></Link>
+                    <Link className="smoothscroll" to="about" smooth={true}>
+                        <i className="fas fa-chevron-down" />
+                    </Link>
                 </p>
             </header>
         </Element>

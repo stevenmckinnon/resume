@@ -25,7 +25,7 @@ const Resume: React.FC<Props> = ({ work, education, skills }) => (
                 <div className="nine columns main-col">
                     {
                         work.map((job, index) => (
-                            <div key={index} className="row item">
+                            <div key={index} className="row item job">
                                 <div className="twelve columns">
                                     <h3>{job.company}</h3>
                                     <p className="info">{job.jobTitle} <span>•</span> <em
