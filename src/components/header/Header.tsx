@@ -43,9 +43,9 @@ const Header: React.FC<Props> = ({ name, intro, socialMedia }) => {
                 <div className="row banner">
                     <div className="banner-text">
                         <h1 className="responsive-headline">I'm {name}.</h1>
-                        <br/>
-                        <h2>{intro} Let's <Link className="smoothscroll" to="about" smooth={true}>start scrolling </Link>
-                            and learn more <Link className="smoothscroll" to="about" smooth={true}>about me</Link>.</h2>
+                      
+                        <h3>{intro}<br/>Let's <Link className="smoothscroll" to="about" smooth={true}>start scrolling </Link>
+                            and learn more <Link className="smoothscroll" to="about" smooth={true}>about me</Link>.</h3>
                         <hr />
                         <ul className="social">
                             {socialMedia.twitter && <li><a href={socialMedia.twitter}>
