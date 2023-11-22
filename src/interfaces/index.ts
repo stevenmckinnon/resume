@@ -31,7 +31,5 @@ export interface PersonalDetails {
 }
 
 export interface Photo {
-    handle: string;
-    width: number;
-    height: number;
+    url: string;
 }

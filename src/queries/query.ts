@@ -12,9 +12,7 @@ query content($where: PersonalDetailsWhereInput) {
         biography
         cvUrl
         photo {
-          handle
-          width
-          height
+          url
         }
         workExperiences(orderBy: fromDate_DESC) {
           company
