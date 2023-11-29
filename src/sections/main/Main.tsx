@@ -25,9 +25,9 @@ const Main: React.FC<Props> = ({ name, intro, socialMedia }) => {
       className="home h-full flex flex-col align justify-center items-center p-6"
     >
       <div className="gap-3 flex flex-col align justify-center items-center max-w-4xl">
-        <h1 className="text-white text-4xl md:text-8xl drop-shadow-md font-heading">{`I'm ${name}.`}</h1>
+        <h1 className="text-white text-4xl md:text-8xl 2xl:text-9xl [text-shadow:_2px_2px_0_rgb(0_0_0_/_40%)] font-heading">{`I'm ${name}.`}</h1>
 
-        <h3 className="text-white text-md md:text-lg font-body">
+        <h3 className="text-white text-md md:text-lg 2xl:text-xl font-body [text-shadow:_2px_2px_0_rgb(0_0_0_/_40%)]">
           {intro}
           <br />
           {`Let's `}

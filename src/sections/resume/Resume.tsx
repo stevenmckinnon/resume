@@ -75,11 +75,11 @@ const Resume: React.FC<Props> = ({ work, education, skills }) => (
           </h1>
         </div>
         <div className="col-span-2">
-          <div className="grid grid-cols-3 md:grid-cols-4 gap-6">
+          <div className="flex flex-wrap justify-center items-center gap-3">
             {skills.map((skill, index) => (
               <div
                 key={index}
-                className="bg-teal-300 text-dark rounded-3xl p-4 font-body"
+                className="bg-teal-300 text-dark rounded-3xl p-4 font-body min-w-[100px]"
               >
                 {skill}
               </div>
