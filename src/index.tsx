@@ -1,33 +1,26 @@
-import { createRoot } from "react-dom/client";
+import { createRoot } from "react-dom/client"
+import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client"
 
-import "./index.css";
-import App from "./App";
-import * as serviceWorker from "./serviceWorker";
-import {
-  ApolloClient,
-  InMemoryCache,
-  ApolloProvider,
-  gql,
-} from "@apollo/client";
-import "./styles/scss/layout.scss";
+import App from "./App"
+import * as serviceWorker from "./serviceWorker"
 
 const GRAPHCMS_API: string =
-  "https://api-eu-central-1.graphcms.com/v2/cjt383sj74vy7019egnoibmgn/master";
+  "https://api-eu-central-1.graphcms.com/v2/cjt383sj74vy7019egnoibmgn/master"
 
 const client = new ApolloClient({
   uri: GRAPHCMS_API,
   cache: new InMemoryCache(),
-});
+})
 
-const container = document.getElementById("root");
-const root = createRoot(container!);
+const container = document.getElementById("root")
+const root = createRoot(container!)
 root.render(
   <ApolloProvider client={client}>
     <App />
-  </ApolloProvider>
-);
+  </ApolloProvider>,
+)
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: http://bit.ly/CRA-PWA
-serviceWorker.unregister();
+serviceWorker.unregister()

@@ -1,0 +1,8 @@
+$header-height: 68px;
+
+.home {
+  background: url(../images/main-background-blurred.jpg) no-repeat top center;
+  background-size: cover;
+  height: calc(100dvh + $header-height);
+  margin-top: -$header-height;
+}

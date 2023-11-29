@@ -1,0 +1,17 @@
+.scrolled {
+  backdrop-filter: blur(3px);
+}
+
+.active {
+  color: theme("colors.orange.500");
+}
+
+header:has(.resume-section) {
+  .link {
+    color: theme("colors.black");
+
+    &.active {
+      color: theme("colors.orange.500");
+    }
+  }
+}
