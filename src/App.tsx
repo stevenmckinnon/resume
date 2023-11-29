@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import * as React from "react"
-import "./App.css"
 import "./index.css"
 
 import Main from "./sections/main/Main"
@@ -10,6 +9,7 @@ import Footer from "./sections/footer/Footer"
 import { useQuery } from "@apollo/client"
 import personalDetails from "./queries/query"
 import { Header } from "@/components/header"
+import { Loader } from "@/components/loader"
 
 const App: React.FC = () => {
   const data = useQuery(personalDetails, {
@@ -25,7 +25,7 @@ const App: React.FC = () => {
     const { skills } = personalDetails.skills
 
     return (
-      <div className="App z-0 overflow-x-hidden">
+      <div className="z-0 overflow-x-hidden text-center">
         <Header />
         <Main name={name} intro={intro} socialMedia={socialMedia} />
         <About personalDetails={personalDetails} photo={photo} />
@@ -35,12 +35,7 @@ const App: React.FC = () => {
     )
   }
 
-  return (
-    <div className="loading">
-      <div id="spinContain" />
-      <div id="spinContainT" />
-    </div>
-  )
+  return <Loader />
 }
 
 export const AppComp = App

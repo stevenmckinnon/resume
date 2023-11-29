@@ -105,7 +105,7 @@ const Main: React.FC<Props> = ({ name, intro, socialMedia }) => {
       </div>
       <div className="scrolldown absolute bottom-5 flex justify-center">
         <Link
-          className="text-2xl text-white hover:text-teal-300 cursor-pointer"
+          className="motion-safe:animate-bounce text-2xl text-white hover:text-teal-300 cursor-pointer"
           to="about"
           smooth={true}
         >
