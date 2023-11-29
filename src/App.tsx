@@ -9,7 +9,7 @@ import Resume from "./sections/resume/Resume"
 import Footer from "./sections/footer/Footer"
 import { useQuery } from "@apollo/client"
 import personalDetails from "./queries/query"
-import { Header } from "@/components/Header"
+import { Header } from "@/components/header"
 
 const App: React.FC = () => {
   const data = useQuery(personalDetails, {

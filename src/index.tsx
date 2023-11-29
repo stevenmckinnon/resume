@@ -3,7 +3,6 @@ import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client"
 
 import App from "./App"
 import * as serviceWorker from "./serviceWorker"
-// import "./styles/scss/layout.scss"
 
 const GRAPHCMS_API: string =
   "https://api-eu-central-1.graphcms.com/v2/cjt383sj74vy7019egnoibmgn/master"

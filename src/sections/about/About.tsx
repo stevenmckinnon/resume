@@ -2,7 +2,7 @@ import * as React from "react"
 import { Element } from "react-scroll"
 import { PersonalDetails, Photo } from "../../interfaces"
 import { AtSign, Download } from "lucide-react"
-import { Button } from "@/components/Button"
+import { Button } from "@/components/button"
 
 interface Props {
   photo: Photo

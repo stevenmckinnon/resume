@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import { Button } from "@/components/Button"
+import { Button } from "@/components/button"
 import { Link } from "react-scroll"
 import "./header.scss"
 
@@ -21,8 +21,6 @@ const Header = () => {
       window.removeEventListener("scroll", scrollWindow)
     }
   }, [scrolled])
-
-  console.log("scrolled", scrolled)
 
   return (
     <header className={`header p-3 z-50 fixed w-full ${scrolled ? "scrolled" : ""}`}>
