@@ -1,74 +1,73 @@
-import * as React from 'react';
-import { Link, Element } from "react-scroll";
-import { SocialMedia } from '../../interfaces';
+import React, { useEffect, useState } from "react"
+import { Button } from "@/components/Button"
+import { Link } from "react-scroll"
+import "./header.scss"
 
-interface Props {
-    name: string;
-    intro: string;
-    socialMedia: SocialMedia;
+const Header = () => {
+  const [scrolled, setScrolled] = useState<boolean>(false)
+
+  useEffect(() => {
+    const scrollWindow = (): void => {
+      const OFFSET: number = 200
+      if (window.scrollY > OFFSET && !scrolled) {
+        setScrolled(true)
+      } else if (window.scrollY <= OFFSET && scrolled) {
+        setScrolled(false)
+      }
+    }
+    window.addEventListener("scroll", scrollWindow)
+
+    return () => {
+      window.removeEventListener("scroll", scrollWindow)
+    }
+  }, [scrolled])
+
+  console.log("scrolled", scrolled)
+
+  return (
+    <header className={`header p-3 z-50 fixed w-full ${scrolled ? "scrolled" : ""}`}>
+      <nav
+        className="mx-auto flex max-w-7xl items-center justify-center lg:px-8"
+        aria-label="Global"
+      >
+        <Button variant="link" asChild size="lg">
+          <Link
+            spy
+            smooth
+            activeClass="active home-section"
+            className="link"
+            to="home"
+          >
+            Home
+          </Link>
+        </Button>
+        <Button variant="link" asChild size="lg">
+          <Link
+            spy
+            smooth
+            activeClass="active about-section"
+            className="link"
+            to="about"
+          >
+            About
+          </Link>
+        </Button>
+        <Button variant="link" asChild size="lg">
+          <Link
+            spy
+            smooth
+            activeClass="active resume-section"
+            className="link"
+            to="resume"
+          >
+            Resume
+          </Link>
+        </Button>
+      </nav>
+    </header>
+  )
 }
 
-const Header: React.FC<Props> = ({ name, intro, socialMedia }) => {
-    const [scrolled, setScrolled] = React.useState<boolean>(false);
+Header.displayName = "Header"
 
-    React.useEffect(() => {
-        window.addEventListener('scroll', scrollWindow);
-
-        return () => {
-            window.removeEventListener('scroll', scrollWindow);
-        }
-    });
-
-    const scrollWindow = (): void => {
-        const OFFSET: number = 200;
-        if (window.scrollY > OFFSET && !scrolled) {
-            setScrolled(true);
-        } else if (window.scrollY <= OFFSET && scrolled) {
-            setScrolled(false);
-        }
-    };
-
-    return (
-        <Element name="home">
-            <header id="home">
-                <nav id="nav-wrap">
-                    <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-                    <a className="mobile-btn" href="#hide-nav" title="Hide navigation">Hide navigation</a>
-                    <ul id="nav" className={`nav ${scrolled && 'scrolled'}`}>
-                        <li><Link className="smoothscroll" spy={true} activeClass="current" to="home" smooth={true}>Home</Link></li>
-                        <li><Link className="smoothscroll" spy={true} activeClass="current" to="about" smooth={true}>About</Link></li>
-                        <li><Link className="smoothscroll" spy={true} activeClass="current" to="resume" smooth={true}>Resume</Link></li>
-                    </ul>
-                </nav>
-                <div className="row banner">
-                    <div className="banner-text">
-                        <h1 className="responsive-headline">I'm {name}.</h1>
-                      
-                        <h3>{intro}<br/>Let's <Link className="smoothscroll" to="about" smooth={true}>start scrolling </Link>
-                            and learn more <Link className="smoothscroll" to="about" smooth={true}>about me</Link>.</h3>
-                        <hr />
-                        <ul className="social">
-                            {socialMedia.twitter && <li><a href={socialMedia.twitter}>
-                                <i className="fab fa-twitter" /></a></li>}
-                            {socialMedia.linkedIn && <li><a href={socialMedia.linkedIn}>
-                                <i className="fab fa-linkedin" /></a></li>}
-                            {socialMedia.instagram && <li><a href={socialMedia.instagram}>
-                                <i className="fab fa-instagram" /></a></li>}
-                            {socialMedia.photography && <li><a href={socialMedia.photography}
-                                title={`${name} Photography`}><i className="fa fa-camera" /></a></li>}
-                            {socialMedia.github && <li><a href={socialMedia.github}>
-                                <i className='fab fa-github'></i></a></li>}
-                        </ul>
-                    </div>
-                </div>
-                <p className="scrolldown">
-                    <Link className="smoothscroll" to="about" smooth={true}>
-                        <i className="fas fa-chevron-down" />
-                    </Link>
-                </p>
-            </header>
-        </Element>
-    );
-};
-
-export default Header;
+export { Header }

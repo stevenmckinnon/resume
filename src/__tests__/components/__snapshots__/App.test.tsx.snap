@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Tests the App component renders the App component data 1`] = `ShallowWrapper {}`;
-
-exports[`Tests the App component renders the App component error 1`] = `ShallowWrapper {}`;
-
-exports[`Tests the App component renders the App component loading 1`] = `ShallowWrapper {}`;
